@@ -8,7 +8,14 @@ off-chain cdn to store protocol and token data
 git clone https://github.com/superdapp-com/ocfs.git
 cd ocfs
 bun install
-``` 
+```
+
+*Stage Updates*
+
+```
+bun stage
+```
+
 
 ### Source Directory Structure (src/)
 

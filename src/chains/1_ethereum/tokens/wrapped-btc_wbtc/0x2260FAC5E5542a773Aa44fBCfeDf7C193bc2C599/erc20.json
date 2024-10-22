@@ -1,0 +1,7 @@
+{
+  "chainId": 1,
+  "address": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+  "name": "Wrapped BTC",
+  "symbol": "WBTC",
+  "decimals": 8
+}

@@ -7,7 +7,9 @@
         "@metaplex-foundation/mpl-token-metadata": "^3.2.1",
         "@solana/spl-token": "^0.4.3",
         "@solana/web3.js": "^1.91.1",
-        "viem": "^2.21.32"
+        "@t3-oss/env-nextjs": "^0.11.1",
+        "viem": "^2.21.32",
+        "zod": "^3.23.8"
     },
     "description": "off-chain file storage",
     "license": "ISC",

@@ -1,8 +1,12 @@
 import * as fs from 'fs';
 import { mainnet, pulsechain, base, bsc, degen, sepolia, holesky } from "viem/chains";
-import { Chain, createPublicClient, erc20Abi, getAddress, http } from "viem";
+import { Chain, createPublicClient, erc20Abi, getAddress, http, HttpTransport } from "viem";
+import { env } from "../env.js";
 
 const chains = [mainnet];
+const transportMap: Record<number, HttpTransport> = {
+    1: http(env.RPC_HTTP_1),
+}
 
 export const buildTokenList = async () => {
     await Promise.all(chains.map(async (chain) => {
@@ -11,13 +15,17 @@ export const buildTokenList = async () => {
 }
 
 const getTokenList = async (chain: Chain) => {
+    const chainName = chain.name.toLowerCase();
+    const chainFolder = `${chain.id}_${chainName}`;
+    
     let publicClient = createPublicClient({
         chain,
-        transport: http()
+        transport: transportMap[chain.id]
     })
 
-    let inPath = `./src/shared/tokens/${chain.id}_${chain.name}/list.json`
-    let outPath = `./src/chains/${chain.id}_${chain.name}/tokenList.json`
+    let outBasePath = `./src/chains/${chainFolder}`;
+    let inPath = `./src/shared/tokens/${chainFolder}/list.json`
+    let outPath = `${outBasePath}/tokenList.json`
 
     const addressList = fs.readFileSync(inPath);
     const tokenAddresses = JSON.parse(addressList.toString());
@@ -54,19 +62,23 @@ const getTokenList = async (chain: Chain) => {
     const tokenMap: Record<string, any> = {};
 
     tokens.forEach((token) => {
+        const nameSymbol = `${token.name}_${token.symbol}`.replace(/\s+/g, '-').toLowerCase();
+        const tokenDataPath = `${outBasePath}/tokens/${nameSymbol}/${token.address}/`
+        fs.mkdirSync(`${tokenDataPath}`, { recursive: true });
+        fs.writeFileSync(`${tokenDataPath}/erc20.json`, JSON.stringify(token, null, 2));
         const key = `${token.chainId}-${token.address}`;
         tokenMap[key] = token;
     });
 
     const tokenList = {
-        name: `superdapp-tokens-${chain.name}-${chain.id}`,
+        name: `superdapp-tokens-${chainName}`,
         timestamp: Date.now(),
         version: {
           major: 1,
           minor: 0,
           patch: 0,
         },
-        keywords: ["superdapp.com", "token", "list", chain.name, chain.id],
+        keywords: ["superdapp.com", "token", "list", chainName],
         tokens,
         tokenMap,
       };
