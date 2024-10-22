@@ -2,6 +2,14 @@
 
 off-chain cdn to store protocol and token data
 
+## Getting started
+
+```
+git clone https://github.com/superdapp-com/ocfs.git
+cd ocfs
+bun install
+``` 
+
 ### Source Directory Structure (src/)
 
 The `src/` directory is designed for contributors. It is organized to reflect the relationships between chains, protocols, and tokens, making it easy to navigate and update.
