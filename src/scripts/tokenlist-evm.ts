@@ -3,9 +3,11 @@ import { mainnet, pulsechain, base, bsc, degen, sepolia, holesky } from "viem/ch
 import { Chain, createPublicClient, erc20Abi, getAddress, http, HttpTransport } from "viem";
 import { env } from "../env.js";
 
-const chains = [mainnet];
+const chains = [mainnet, pulsechain,base];
 const transportMap: Record<number, HttpTransport> = {
     1: http(env.RPC_HTTP_1),
+    369: http(env.RPC_HTTP_369),
+    8453: http(env.RPC_HTTP_8453),
 }
 
 export const buildTokenList = async () => {

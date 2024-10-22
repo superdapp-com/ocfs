@@ -1,0 +1,7 @@
+{
+  "chainId": 369,
+  "address": "0xb17D901469B9208B17d916112988A3FeD19b5cA1",
+  "name": "Wrapped BTC from Ethereum",
+  "symbol": "WBTC",
+  "decimals": 8
+}

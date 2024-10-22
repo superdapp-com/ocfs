@@ -1,0 +1,173 @@
+{
+  "name": "superdapp-tokens-base",
+  "timestamp": 1729627393925,
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  },
+  "keywords": [
+    "superdapp.com",
+    "token",
+    "list",
+    "base"
+  ],
+  "tokens": [
+    {
+      "chainId": 8453,
+      "address": "0x4200000000000000000000000000000000000006",
+      "name": "Wrapped Ether",
+      "symbol": "WETH",
+      "decimals": 18
+    },
+    {
+      "chainId": 8453,
+      "address": "0x4ed4E862860beD51a9570b96d89aF5E1B0Efefed",
+      "name": "Degen",
+      "symbol": "DEGEN",
+      "decimals": 18
+    },
+    {
+      "chainId": 8453,
+      "address": "0x532f27101965dd16442E59d40670FaF5eBB142E4",
+      "name": "Brett",
+      "symbol": "BRETT",
+      "decimals": 18
+    },
+    {
+      "chainId": 8453,
+      "address": "0xBa5B9B2D2d06a9021EB3190ea5Fb0e02160839A4",
+      "name": "Sendit",
+      "symbol": "Sendit",
+      "decimals": 18
+    },
+    {
+      "chainId": 8453,
+      "address": "0x7d89E05c0B93B24B5Cb23A073E60D008FEd1aCF9",
+      "name": "member",
+      "symbol": "member",
+      "decimals": 18
+    },
+    {
+      "chainId": 8453,
+      "address": "0x0578d8A44db98B23BF096A382e016e29a5Ce0ffe",
+      "name": "higher",
+      "symbol": "HIGHER",
+      "decimals": 18
+    },
+    {
+      "chainId": 8453,
+      "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 6
+    },
+    {
+      "chainId": 8453,
+      "address": "0xd9aAEc86B65D86f6A7B5B1b0c42FFA531710b6CA",
+      "name": "USD Base Coin",
+      "symbol": "USDbC",
+      "decimals": 6
+    },
+    {
+      "chainId": 8453,
+      "address": "0x940181a94A35A4569E4529A3CDfB74e38FD98631",
+      "name": "Aerodrome",
+      "symbol": "AERO",
+      "decimals": 18
+    },
+    {
+      "chainId": 8453,
+      "address": "0x96419929d7949D6A801A6909c145C8EEf6A40431",
+      "name": "Spectral Token",
+      "symbol": "SPEC",
+      "decimals": 18
+    },
+    {
+      "chainId": 8453,
+      "address": "0x8C9037D1Ef5c6D1f6816278C7AAF5491d24CD527",
+      "name": "Moxie",
+      "symbol": "MOXIE",
+      "decimals": 18
+    }
+  ],
+  "tokenMap": {
+    "8453-0x4200000000000000000000000000000000000006": {
+      "chainId": 8453,
+      "address": "0x4200000000000000000000000000000000000006",
+      "name": "Wrapped Ether",
+      "symbol": "WETH",
+      "decimals": 18
+    },
+    "8453-0x4ed4E862860beD51a9570b96d89aF5E1B0Efefed": {
+      "chainId": 8453,
+      "address": "0x4ed4E862860beD51a9570b96d89aF5E1B0Efefed",
+      "name": "Degen",
+      "symbol": "DEGEN",
+      "decimals": 18
+    },
+    "8453-0x532f27101965dd16442E59d40670FaF5eBB142E4": {
+      "chainId": 8453,
+      "address": "0x532f27101965dd16442E59d40670FaF5eBB142E4",
+      "name": "Brett",
+      "symbol": "BRETT",
+      "decimals": 18
+    },
+    "8453-0xBa5B9B2D2d06a9021EB3190ea5Fb0e02160839A4": {
+      "chainId": 8453,
+      "address": "0xBa5B9B2D2d06a9021EB3190ea5Fb0e02160839A4",
+      "name": "Sendit",
+      "symbol": "Sendit",
+      "decimals": 18
+    },
+    "8453-0x7d89E05c0B93B24B5Cb23A073E60D008FEd1aCF9": {
+      "chainId": 8453,
+      "address": "0x7d89E05c0B93B24B5Cb23A073E60D008FEd1aCF9",
+      "name": "member",
+      "symbol": "member",
+      "decimals": 18
+    },
+    "8453-0x0578d8A44db98B23BF096A382e016e29a5Ce0ffe": {
+      "chainId": 8453,
+      "address": "0x0578d8A44db98B23BF096A382e016e29a5Ce0ffe",
+      "name": "higher",
+      "symbol": "HIGHER",
+      "decimals": 18
+    },
+    "8453-0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913": {
+      "chainId": 8453,
+      "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 6
+    },
+    "8453-0xd9aAEc86B65D86f6A7B5B1b0c42FFA531710b6CA": {
+      "chainId": 8453,
+      "address": "0xd9aAEc86B65D86f6A7B5B1b0c42FFA531710b6CA",
+      "name": "USD Base Coin",
+      "symbol": "USDbC",
+      "decimals": 6
+    },
+    "8453-0x940181a94A35A4569E4529A3CDfB74e38FD98631": {
+      "chainId": 8453,
+      "address": "0x940181a94A35A4569E4529A3CDfB74e38FD98631",
+      "name": "Aerodrome",
+      "symbol": "AERO",
+      "decimals": 18
+    },
+    "8453-0x96419929d7949D6A801A6909c145C8EEf6A40431": {
+      "chainId": 8453,
+      "address": "0x96419929d7949D6A801A6909c145C8EEf6A40431",
+      "name": "Spectral Token",
+      "symbol": "SPEC",
+      "decimals": 18
+    },
+    "8453-0x8C9037D1Ef5c6D1f6816278C7AAF5491d24CD527": {
+      "chainId": 8453,
+      "address": "0x8C9037D1Ef5c6D1f6816278C7AAF5491d24CD527",
+      "name": "Moxie",
+      "symbol": "MOXIE",
+      "decimals": 18
+    }
+  }
+}
