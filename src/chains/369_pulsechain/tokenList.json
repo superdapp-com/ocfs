@@ -1,6 +1,6 @@
 {
-  "name": "superdapp-tokens-pulsechain",
-  "timestamp": 1729627382914,
+  "name": "superdapp-tokens-369_pulsechain",
+  "timestamp": 1729632130936,
   "version": {
     "major": 1,
     "minor": 0,
@@ -10,7 +10,7 @@
     "superdapp.com",
     "token",
     "list",
-    "pulsechain"
+    "369_pulsechain"
   ],
   "tokens": [
     {

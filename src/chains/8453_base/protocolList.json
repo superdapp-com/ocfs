@@ -1,6 +1,6 @@
 {
   "name": "superdapp-protocols-8453_base",
-  "timestamp": 1729631334540,
+  "timestamp": 1729632130044,
   "version": {
     "major": 1,
     "minor": 0,
@@ -44,6 +44,10 @@
     {
       "protocol": "xen-crypto",
       "address": "0xffcbF84650cE02DaFE96926B37a0ac5E34932fa5"
+    },
+    {
+      "protocol": "degen",
+      "address": "0x4ed4E862860beD51a9570b96d89aF5E1B0Efefed"
     }
   ],
   "protocolMap": {
@@ -54,6 +58,7 @@
     "coin-tool": "0x9Ec1C3DcF667f2035FB4CD2eB42A1566fd54d2B7",
     "fenix": "0x07FdE3eD7727c1D84171A6e5815964d50827CF69",
     "aave-v3-pool": "0xA238Dd80C259a72e81d7e4664a9801593F98d1c5",
-    "xen-crypto": "0xffcbF84650cE02DaFE96926B37a0ac5E34932fa5"
+    "xen-crypto": "0xffcbF84650cE02DaFE96926B37a0ac5E34932fa5",
+    "degen": "0x4ed4E862860beD51a9570b96d89aF5E1B0Efefed"
   }
 }

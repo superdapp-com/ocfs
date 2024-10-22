@@ -4,7 +4,7 @@ import { buildTokenList } from "./scripts/token-list-evm.js";
 switch (process.argv[2]) {
     case "--stage":
         buildProtocolList();
-        // buildTokenList();
+        buildTokenList();
         break;
     case "--dist":
         console.log("dist world");
