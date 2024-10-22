@@ -1,14 +1,7 @@
 import * as fs from 'fs';
-import { mainnet, pulsechain, base, bsc, degen, sepolia, holesky } from "viem/chains";
-import { Chain, createPublicClient, erc20Abi, getAddress, http, HttpTransport } from "viem";
-import { env } from "../env.js";
+import { Chain, createPublicClient, erc20Abi, getAddress} from "viem";
+import { chains, transportMap, getChainFolder } from "./globals.js";
 
-const chains = [mainnet, pulsechain,base];
-const transportMap: Record<number, HttpTransport> = {
-    1: http(env.RPC_HTTP_1),
-    369: http(env.RPC_HTTP_369),
-    8453: http(env.RPC_HTTP_8453),
-}
 
 export const buildTokenList = async () => {
     await Promise.all(chains.map(async (chain) => {
@@ -17,8 +10,8 @@ export const buildTokenList = async () => {
 }
 
 const getTokenList = async (chain: Chain) => {
-    const chainName = chain.name.toLowerCase();
-    const chainFolder = `${chain.id}_${chainName}`;
+
+    const chainFolder = getChainFolder(chain);
     
     let publicClient = createPublicClient({
         chain,
@@ -32,7 +25,7 @@ const getTokenList = async (chain: Chain) => {
     const addressList = fs.readFileSync(inPath);
     const tokenAddresses = JSON.parse(addressList.toString());
 
-    const tokensRequests = tokenAddresses.map(async (tokenAddress: string) => {
+    const tokensRequests = tokenAddresses.flatMap(async (tokenAddress: string) => {
         return await publicClient.multicall({
             contracts: [{
                 address: getAddress(tokenAddress),
@@ -73,14 +66,14 @@ const getTokenList = async (chain: Chain) => {
     });
 
     const tokenList = {
-        name: `superdapp-tokens-${chainName}`,
+        name: `superdapp-tokens-${chainFolder}`,
         timestamp: Date.now(),
         version: {
           major: 1,
           minor: 0,
           patch: 0,
         },
-        keywords: ["superdapp.com", "token", "list", chainName],
+        keywords: ["superdapp.com", "token", "list", chainFolder],
         tokens,
         tokenMap,
       };

@@ -1,0 +1,89 @@
+{
+  "name": "superdapp-protocols-1_ethereum",
+  "timestamp": 1729631334538,
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  },
+  "keywords": [
+    "superdapp.com",
+    "token",
+    "list",
+    "1_ethereum"
+  ],
+  "protocols": [
+    {
+      "protocol": "lido",
+      "address": "0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84"
+    },
+    {
+      "protocol": "hex",
+      "address": "0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39"
+    },
+    {
+      "protocol": "aave-v3-pool-data-provider",
+      "address": "0x7B4EB56E7CD4b454BA8ff71E4518426369a138a3"
+    },
+    {
+      "protocol": "dbxen-views",
+      "address": "0xf032f7FB8258728A1938473B2115BB163d5Da593"
+    },
+    {
+      "protocol": "xenft",
+      "address": "0x0a252663DBCc0b073063D6420a40319e438Cfa59"
+    },
+    {
+      "protocol": "dbxen",
+      "address": "0xF5c80c305803280B587F8cabBcCdC4d9BF522AbD"
+    },
+    {
+      "protocol": "nonfungible-position-manager",
+      "address": "0xC36442b4a4522E871399CD717aBDD847Ab11FE88"
+    },
+    {
+      "protocol": "aave-v2-pool",
+      "address": "0x7d2768dE32b0b80b7a3454c06BdAc94A69DDc7A9"
+    },
+    {
+      "protocol": "coin-tool",
+      "address": "0x0de8bf93da2f7eecb3d9169422413a9bef4ef628"
+    },
+    {
+      "protocol": "fenix",
+      "address": "0xC3e8abfA04B0EC442c2A4D65699a40F7FcEd8055"
+    },
+    {
+      "protocol": "aave-v3-pool",
+      "address": "0x87870Bca3F3fD6335C3F4ce8392D69350B4fA4E2"
+    },
+    {
+      "protocol": "aave-v2-pool-data-provider",
+      "address": "0x00e50FAB64eBB37b87df06Aa46b8B35d5f1A4e1A"
+    },
+    {
+      "protocol": "lido-withdraw",
+      "address": "0xe42c659dc09109566720ea8b2de186c2be7d94d9"
+    },
+    {
+      "protocol": "xen-crypto",
+      "address": "0x06450dEe7FD2Fb8E39061434BAbCFC05599a6Fb8"
+    }
+  ],
+  "protocolMap": {
+    "lido": "0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84",
+    "hex": "0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39",
+    "aave-v3-pool-data-provider": "0x7B4EB56E7CD4b454BA8ff71E4518426369a138a3",
+    "dbxen-views": "0xf032f7FB8258728A1938473B2115BB163d5Da593",
+    "xenft": "0x0a252663DBCc0b073063D6420a40319e438Cfa59",
+    "dbxen": "0xF5c80c305803280B587F8cabBcCdC4d9BF522AbD",
+    "nonfungible-position-manager": "0xC36442b4a4522E871399CD717aBDD847Ab11FE88",
+    "aave-v2-pool": "0x7d2768dE32b0b80b7a3454c06BdAc94A69DDc7A9",
+    "coin-tool": "0x0de8bf93da2f7eecb3d9169422413a9bef4ef628",
+    "fenix": "0xC3e8abfA04B0EC442c2A4D65699a40F7FcEd8055",
+    "aave-v3-pool": "0x87870Bca3F3fD6335C3F4ce8392D69350B4fA4E2",
+    "aave-v2-pool-data-provider": "0x00e50FAB64eBB37b87df06Aa46b8B35d5f1A4e1A",
+    "lido-withdraw": "0xe42c659dc09109566720ea8b2de186c2be7d94d9",
+    "xen-crypto": "0x06450dEe7FD2Fb8E39061434BAbCFC05599a6Fb8"
+  }
+}

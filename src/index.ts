@@ -1,8 +1,10 @@
-import { buildTokenList } from "./scripts/tokenlist-evm.js";
+import { buildProtocolList } from "./scripts/protocol-list-evm.js";
+import { buildTokenList } from "./scripts/token-list-evm.js";
 
 switch (process.argv[2]) {
     case "--stage":
-        buildTokenList();
+        buildProtocolList();
+        // buildTokenList();
         break;
     case "--dist":
         console.log("dist world");

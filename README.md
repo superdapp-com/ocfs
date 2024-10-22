@@ -24,25 +24,21 @@ The `src/` directory is designed for contributors. It is organized to reflect th
 ```
 src/
 ├── chains/
-│   ├── <chain_identifier>/
-│   │   ├── protocols/
-│   │   │   └── <protocol_name>/
-│   │   │       ├── <instance_identifier>/
-│   │   │       │   ├── contracts/
-│   │   │       │   │   └── <contract_name>.json
-│   │   │       │   └── metadata.json
-│   │   └── tokens/
-│   │       └── <token_symbol>/
-│   │           ├── <instance_identifier>/
-│   │           │   ├── metadata.json
-│   │           │   └── image.png
-├── protocols/
-│   └── <protocol_name>/
-│       ├── abi.json
-│       └── metadata.json
-└── tokens/
-    └── <token_symbol>/
-        └── metadata.json
+│   ├── [chain_id]_[chain_name]/
+│   │   ├── tokenList.json
+│   │   ├── protocolList.json
+│   │   ├── protocols
+│   │   │   └── [protocol_name]/
+│   │   │       └── [contract_address]/
+│   │   └── tokens
+│   │       └── [token_name]/
+│   │           └── [token_address]/
+│   └── [other chains]/
+├── scripts/
+└── shared/
+    ├── images/
+    ├── protocols/
+    └── tokens/
 ```
 
 ### Distribution Directory Structure (dist/)
@@ -51,15 +47,10 @@ The `dist/` directory is optimized for software consumption, with concise paths 
 
 ```
 dist/
-├── protocols/
-│   └── <chain_identifier>/
-│       └── <protocol_address>/
-│           ├── abi.json
-│           └── metadata.json
-├── tokens/
-│   └── <chain_identifier>/
-│       └── <token_address>/
-│           ├── metadata.json
-│           └── image.png
-└── chains.json
+└── [chain_id]/
+    ├── tokenList.json@
+    ├── protocolList.json@
+    ├── [protocol_name]_[contract_address].json@
+    ├── [token_address]_erc20.json@
+    └── [token_address].svg@
 ```
