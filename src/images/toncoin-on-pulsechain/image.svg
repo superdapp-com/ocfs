@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="56px" height="56px" viewBox="0 0 56 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>TON</title>
+    <defs>
+        <linearGradient x1="73.5134427%" y1="5.78641782%" x2="26.3938548%" y2="94.268878%" id="linearGradient-1">
+            <stop stop-color="#00EAFF" offset="0%"></stop>
+            <stop stop-color="#0080FF" offset="25.2530882%"></stop>
+            <stop stop-color="#8000FF" offset="49.7394282%"></stop>
+            <stop stop-color="#E619E6" offset="74.9912298%"></stop>
+            <stop stop-color="#FF0000" offset="99.9136118%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="TON">
+            <circle id="bg" fill="url(#linearGradient-1)" fill-rule="nonzero" cx="28" cy="28" r="28"></circle>
+            <path d="M20.2,18.5 L35.9,18.5 C36.5,18.5 37,18.6 37.6,18.9 C38.3,19.2 38.7,19.7 38.9,20.1 C38.9,20.1 38.9,20.2 39,20.2 C39.3,20.7 39.5,21.3 39.5,22 C39.5,22.6 39.4,23.2 39,23.8 C39,23.8 39,23.8 39,23.8 L29.1,40.8 C28.9,41.2 28.5,41.4 28,41.4 C27.6,41.4 27.2,41.2 26.9,40.8 L17.2,23.8 C17.2,23.8 17.2,23.8 17.2,23.8 C17,23.4 16.6,22.9 16.6,22.1 C16.5,21.4 16.7,20.8 17,20.2 C17.3,19.6 17.8,19.1 18.5,18.9 C19.1,18.5 19.8,18.5 20.2,18.5 Z M26.8,20.9 L20.2,20.9 C19.8,20.9 19.6,20.9 19.5,21 C19.3,21.1 19.2,21.2 19.1,21.4 C19,21.5 19,21.7 19,21.9 C19,22 19.1,22.1 19.3,22.5 C19.3,22.5 19.3,22.5 19.3,22.5 L26.8,35.5 L26.8,20.9 Z M29.2,20.9 L29.2,35.6 L36.8,22.5 C36.9,22.3 36.9,22.1 36.9,21.9 C36.9,21.7 36.9,21.5 36.8,21.4 C36.7,21.3 36.7,21.2 36.6,21.2 C36.6,21.2 36.5,21.1 36.5,21.1 C36.3,21 36.1,21 35.8,21 L29.2,21 L29.2,20.9 Z" id="logo" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>

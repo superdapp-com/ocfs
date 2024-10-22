@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="250px" height="242px" viewBox="0 0 250 242" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>PLSP</title>
+    <defs>
+        <linearGradient x1="76.2262818%" y1="3.60902428%" x2="23.6511094%" y2="96.4181658%" id="linearGradient-1">
+            <stop stop-color="#00EAFF" offset="0%"></stop>
+            <stop stop-color="#0080FF" offset="25.2530882%"></stop>
+            <stop stop-color="#8000FF" offset="49.7394282%"></stop>
+            <stop stop-color="#E619E6" offset="74.9912298%"></stop>
+            <stop stop-color="#FF0000" offset="99.9136118%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M178,0 C217.764502,0 249.999999,32.235498 249.999999,72 C249.999999,111.764502 217.764502,144 178,144 L72.0708406,144 C57.7114361,144 46.0708406,155.640597 46.0708406,170 C46.0708406,184.359403 57.7114361,196 72.0708406,196 L102.011681,196 L102.011681,153.614006 L147.999999,153.615 L147.999239,242 L72.0708406,242 C32.3063376,242 0.0708406214,209.764502 0.0708406214,170 C0.0708406214,130.235498 32.3063376,98 72.0708406,98 L178,98 C192.359403,98 204,86.3594035 204,72 C204,57.6405965 192.359403,46 178,46 L148.059159,46 L148.059159,88.3859943 L102.070841,88.385 L102.0716,0 L178,0 Z" id="PLSP" fill="url(#linearGradient-1)"></path>
+    </g>
+</svg>

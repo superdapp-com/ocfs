@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>BFF</title>
+    <g id="main" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="BFF">
+            <circle id="Oval" fill="#00CCFF" fill-rule="nonzero" cx="50" cy="50" r="50"></circle>
+            <g id="Group" transform="translate(15.000000, 23.000000)" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="7">
+                <path d="M59.5,38.5 C64.715,33.39 70,27.265 70,19.25 C70,8.61851857 61.3814814,0 50.75,0 C44.59,0 40.25,1.75 35,7 C29.75,1.75 25.41,0 19.25,0 C8.61851857,0 0,8.61851857 0,19.25 C0,27.3 5.25,33.425 10.5,38.5 L35,63 L59.5,38.5 Z" id="Path"></path>
+                <path d="M35,7 L24.64,17.36 C23.2036794,18.7858962 22.3958808,20.7260937 22.3958808,22.75 C22.3958808,24.7739063 23.2036794,26.7141038 24.64,28.14 L24.64,28.14 C27.51,31.01 32.095,31.115 35.14,28.385 L42.385,21.735 C46.1476048,18.3208225 51.8873952,18.3208225 55.65,21.735 L66.01,31.045" id="Path"></path>
+                <line x1="56" y1="42" x2="49" y2="35" id="Path"></line>
+                <line x1="45.5" y1="52.5" x2="38.5" y2="45.5" id="Path"></line>
+            </g>
+        </g>
+    </g>
+</svg>

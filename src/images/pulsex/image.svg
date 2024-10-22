@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="28px" viewBox="0 0 24 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>PLSX</title>
+    <defs>
+        <linearGradient x1="12.8817706%" y1="0%" x2="69.4901259%" y2="111.597742%" id="linearGradient-1">
+            <stop stop-color="#FF0000" offset="0.0863882212%"></stop>
+            <stop stop-color="#FF0033" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="84.1163271%" y1="0%" x2="30.8144756%" y2="107.068238%" id="linearGradient-2">
+            <stop stop-color="#00FF99" offset="0%"></stop>
+            <stop stop-color="#00FF55" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="PLSX" fill-rule="nonzero">
+            <path d="M15.2714483,17.6270046 L20.5154265,26.589313 L14.5740614,26.589313 C14.1842616,26.589313 13.824193,26.3848266 13.6299553,26.0531463 L13.6299553,26.0531463 L11.9775681,23.2314931 L15.2714483,17.6270046 Z M5.95309982,2.77862595 C6.34304437,2.77862595 6.70322361,2.98326293 6.89740765,3.31513742 L6.89740765,3.31513742 L10.3080218,9.14415878 L7.0119637,14.7522809 L0,2.77862595 L5.95309982,2.77862595 Z" id="Shape" fill="url(#linearGradient-1)"></path>
+            <path d="M8.10460665,26.9338647 L24,0 L24,0 L18.611961,0 C17.834135,0 17.1153549,0.407129664 16.7262273,1.06811263 L0.871143376,28 L0.871143376,28 L6.2200384,28 C6.99703296,28 7.7151762,27.593733 8.10460665,26.9338647 Z" id="Path" fill="url(#linearGradient-2)"></path>
+        </g>
+    </g>
+</svg>

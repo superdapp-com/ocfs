@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="146px" height="182px" viewBox="0 0 146 182" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>pXEN</title>
+    <defs>
+        <linearGradient x1="82.1760657%" y1="0%" x2="17.8239343%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#00EAFF" offset="0%"></stop>
+            <stop stop-color="#0080FF" offset="25.2530882%"></stop>
+            <stop stop-color="#8000FF" offset="49.7394282%"></stop>
+            <stop stop-color="#E619E6" offset="74.9912298%"></stop>
+            <stop stop-color="#FF0000" offset="99.9136118%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <polygon id="pXEN" fill="url(#linearGradient-1)" fill-rule="nonzero" points="136.572426 0 73.1273997 84.372549 10.1919721 0 3.82198953 0 69.8150087 88.4509804 0 182 6.36998255 182 73.1273997 92.5294118 139.630017 182 146 182 76.6945899 88.4509804 142.942408 0"></polygon>
+    </g>
+</svg>

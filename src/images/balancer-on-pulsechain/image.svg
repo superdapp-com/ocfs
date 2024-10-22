@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1000px" height="1000px" viewBox="0 0 1000 1000" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>pBAL</title>
+    <defs>
+        <linearGradient x1="72.9004176%" y1="5.31266619%" x2="25.5260078%" y2="94.1194648%" id="linearGradient-1">
+            <stop stop-color="#00EAFF" offset="0%"></stop>
+            <stop stop-color="#0080FF" offset="25.2530882%"></stop>
+            <stop stop-color="#8000FF" offset="49.7394282%"></stop>
+            <stop stop-color="#E619E6" offset="74.9912298%"></stop>
+            <stop stop-color="#FF0000" offset="99.9136118%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="pBAL">
+            <path d="M500,0 C776.1,0 1000,223.9 1000,500 C1000,776.1 776.1,1000 500,1000 C223.9,1000 0,776.1 0,500 C0,223.9 223.9,0 500,0 Z" id="bg" fill="url(#linearGradient-1)"></path>
+            <path d="M710.6,517 C763.9,537.3 797,565.6 797,596.8 C797,658.8 667.4,709 507.5,709 C347.6,709 218,662.8 218,600.9 C218,568.6 253.3,539.5 309.8,519 C353.9,547.3 427.9,561.8 511.8,561.8 C593.7,561.8 666.1,544.1 710.6,517 Z M650.9,398.2 C698.5,413.8 728.700076,437 728.700076,463 C728.8,509.9 630.5,547.9 509.2,547.9 C388,547.9 289.7,509.9 289.7,463 C289.7,437 320,413.7 367.5,398.2 C401.4,415.9 452.2,427.2 509.2,427.2 C566.2,427.2 617,415.9 650.9,398.2 Z M508.4,273.1 C602.1,273.1 678.1,304.5 678.1,343.1 C678.1,381.7 602.1,413.1 508.4,413.1 C414.7,413.1 338.7,381.7 338.7,343.1 C338.7,304.5 414.7,273.1 508.4,273.1 Z" id="logo" fill="#FFFFFF" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

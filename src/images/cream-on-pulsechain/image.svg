@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400px" height="400px" viewBox="0 0 400 400" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>pCREAM</title>
+    <defs>
+        <linearGradient x1="73.299635%" y1="5.77827134%" x2="26.1078019%" y2="94.5196437%" id="linearGradient-1">
+            <stop stop-color="#00EAFF" offset="0%"></stop>
+            <stop stop-color="#0080FF" offset="25.2530882%"></stop>
+            <stop stop-color="#8000FF" offset="49.7394282%"></stop>
+            <stop stop-color="#E619E6" offset="74.9912298%"></stop>
+            <stop stop-color="#FF0000" offset="99.9136118%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="pCREAM" fill-rule="nonzero">
+            <circle id="Oval" fill="url(#linearGradient-1)" cx="200" cy="200" r="200"></circle>
+            <path d="M207,327 C237.210594,327 264.957454,316.451503 286.758331,298.836758 C298.493941,289.354582 285.748411,278.142665 269.640248,262.91308 C259.935494,253.737646 250.35033,242.208897 240.286617,232.637739 C226.041126,219.089473 212.688624,207.961685 212.688624,200 C212.688624,193.171572 222.349072,184.026721 233.431794,173.002498 C246.078144,160.422899 261.018707,145.634856 273.292601,133.215364 C286.369587,119.983254 297.73984,110.159173 287.447376,101.723953 C265.543522,83.772584 237.529797,73 207,73 C136.859837,73 80,129.859837 80,200 C80,270.140163 136.859837,327 207,327 Z" id="Shape" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>

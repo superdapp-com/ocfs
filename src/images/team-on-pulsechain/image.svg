@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>TEAM</title>
+    <g id="TEAM" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="Oval" fill="#449495" cx="50" cy="50" r="50"></circle>
+        <circle id="Oval-Copy-2" fill="#1B3A42" cx="50" cy="50" r="42"></circle>
+        <polygon id="Star" fill="#E9F5F1" transform="translate(50.348076, 49.933013) rotate(30.000000) translate(-50.348076, -49.933013) " points="50.3480762 58.0438592 33.0980762 79.8108891 43.3238771 53.988436 15.8480762 49.9330127 43.3238771 45.8775895 33.0980762 20.0551363 50.3480762 41.8221662 67.5980762 20.0551363 57.3722753 45.8775895 84.8480762 49.9330127 57.3722753 53.988436 67.5980762 79.8108891"></polygon>
+    </g>
+</svg>

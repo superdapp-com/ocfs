@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>LEGAL</title>
+    <g id="main" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="LEGAL">
+            <circle id="Oval" fill="#00CCFF" fill-rule="nonzero" cx="50" cy="50" r="50"></circle>
+            <g id="Group" transform="translate(14.000000, 15.000000)" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="7">
+                <path d="M50.4,47.0810811 L61.2,18.1081081 L72,47.0810811 C68.868,49.4351351 65.088,50.7027027 61.2,50.7027027 C57.312,50.7027027 53.532,49.4351351 50.4,47.0810811 Z" id="Path"></path>
+                <path d="M0,47.0810811 L10.8,18.1081081 L21.6,47.0810811 C18.468,49.4351351 14.688,50.7027027 10.8,50.7027027 C6.912,50.7027027 3.132,49.4351351 0,47.0810811 Z" id="Path"></path>
+                <line x1="18" y1="65.1891892" x2="54" y2="65.1891892" id="Path"></line>
+                <line x1="36" y1="0" x2="36" y2="65.1891892" id="Path"></line>
+                <path d="M3.6,14.4864865 L10.8,14.4864865 C18,14.4864865 28.8,10.8648649 36,7.24324324 C43.2,10.8648649 54,14.4864865 61.2,14.4864865 L68.4,14.4864865" id="Path"></path>
+            </g>
+        </g>
+    </g>
+</svg>

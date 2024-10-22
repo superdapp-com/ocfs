@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1516px" height="1516px" viewBox="0 0 1516 1516" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>WAIT</title>
+    <defs>
+        <linearGradient x1="85.6918473%" y1="14.4529552%" x2="13.8940424%" y2="85.0589621%" id="linearGradient-1">
+            <stop stop-color="#F2AF1B" offset="0%"></stop>
+            <stop stop-color="#E16E45" offset="27.0861432%"></stop>
+            <stop stop-color="#E05458" offset="53.6867039%"></stop>
+            <stop stop-color="#E13971" offset="76.7812608%"></stop>
+            <stop stop-color="#F318C5" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M758,0 C1176.63184,0 1516,339.36816 1516,758 C1516,1176.63184 1176.63184,1516 758,1516 C339.36816,1516 0,1176.63184 0,758 C0,339.36816 339.36816,0 758,0 Z M96,759 C96,1124.6125 392.387496,1421 758,1421 C1107.69233,1421 1394.05705,1149.86223 1418.33284,806.34799 L706.820693,806.34261 L706.815684,98.9493811 C365.121253,125.077568 96,410.610466 96,759 Z M809.042449,98.9385483 L809.037436,630.62493 L986.182676,453.941993 L1058.97664,526.712235 L882.898667,703.223417 L1417.68328,703.22076 C1390.76153,380.524098 1132.37807,123.593507 809.042449,98.9385483 Z" id="WAIT" fill="url(#linearGradient-1)"></path>
+    </g>
+</svg>

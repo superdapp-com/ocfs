@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="850px" height="847px" viewBox="0 0 850 847" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>pSTETH</title>
+    <defs>
+        <linearGradient x1="73.4282064%" y1="6.12005308%" x2="26.4366534%" y2="93.9279988%" id="linearGradient-1">
+            <stop stop-color="#00EAFF" offset="0%"></stop>
+            <stop stop-color="#0080FF" offset="25.2530882%"></stop>
+            <stop stop-color="#8000FF" offset="49.7394282%"></stop>
+            <stop stop-color="#E619E6" offset="74.9912298%"></stop>
+            <stop stop-color="#FF0000" offset="99.9136118%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="pSTETH" fill-rule="nonzero">
+            <path d="M425,0 L425,0 C659.6,0 850,189.728 850,423.5 L850,423.5 C850,657.272 659.6,847 425,847 L425,847 C190.4,847 0,657.272 0,423.5 L0,423.5 C0,189.728 190.4,0 425,0 Z" id="bg" fill="url(#linearGradient-1)"></path>
+            <g id="logo" transform="translate(196.000000, 101.000000)" fill="#FFFFFF">
+                <path d="M40.3757835,289.8 L35.4251462,297.230769 C-21.5071824,386.4 -9.13058923,502.815385 67.6042885,577.123077 C109.684705,621.707692 169.092353,644 228.5,644 C228.5,644 228.5,644 40.3757835,289.8 Z" id="Path" opacity="0.5"></path>
+                <path d="M228.5,396.307692 L40.3757835,287.323077 C228.5,644 228.5,644 228.5,644 C228.5,567.215385 228.5,478.046154 228.5,396.307692 Z" id="Path" opacity="0.75"></path>
+                <path d="M416.624217,289.8 L421.574854,297.230769 C478.507182,386.4 466.130589,502.815385 389.395712,577.123077 C344.839976,621.707692 287.907647,644 228.5,644 C228.5,644 228.5,644 416.624217,289.8 Z" id="Path" opacity="0.7"></path>
+                <path d="M228.5,396.307692 L416.624217,287.323077 C228.5,644 228.5,644 228.5,644 C228.5,567.215385 228.5,478.046154 228.5,396.307692 Z" id="Path" opacity="0.85"></path>
+                <polygon id="Path" opacity="0.9" points="228.5 156.046154 228.5 341.815385 391.87103 250.169231"></polygon>
+                <polygon id="Path" opacity="0.75" points="228.5 156.046154 65.1289698 250.169231 228.5 341.815385"></polygon>
+                <polygon id="Path" opacity="0.5" points="228.5 0 65.1289698 250.169231 228.5 156.046154"></polygon>
+                <polygon id="Path" opacity="0.8" points="228.5 156.046154 391.87103 250.169231 228.5 0"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

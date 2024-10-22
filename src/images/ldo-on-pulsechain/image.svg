@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="850px" height="847px" viewBox="0 0 850 847" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>pLDO</title>
+    <defs>
+        <linearGradient x1="76.2262818%" y1="0.86786944%" x2="23.6511094%" y2="99.1609273%" id="linearGradient-1">
+            <stop stop-color="#00EAFF" offset="0%"></stop>
+            <stop stop-color="#0080FF" offset="25.2530882%"></stop>
+            <stop stop-color="#8000FF" offset="49.7394282%"></stop>
+            <stop stop-color="#E619E6" offset="74.9912298%"></stop>
+            <stop stop-color="#FF0000" offset="99.9136118%"></stop>
+        </linearGradient>
+        <path d="M230.686215,107.7384 L41.3062151,0 L36.2062151,7.7924 C-21.9337849,96.8968 -9.01378494,213.444 67.4862151,288.3188 C157.586215,376.4068 303.786215,376.4068 393.886215,288.3188 C470.386215,213.444 483.306215,96.8968 425.166215,7.7924 L420.066215,0 L230.686215,107.7384 Z" id="path-2"></path>
+        <radialGradient cx="49.9054819%" cy="90.9250068%" fx="49.9054819%" fy="90.9250068%" r="66.7725522%" gradientTransform="translate(0.499055,0.909250),scale(0.996471,1.000000),rotate(-90.468074),translate(-0.499055,-0.909250)" id="radialGradient-4">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.67" offset="100%"></stop>
+        </radialGradient>
+        <linearGradient x1="3.53674402e-14%" y1="-5.37467724e-15%" x2="1.05028493e-13%" y2="100%" id="linearGradient-5">
+            <stop stop-color="#FFFFFF" stop-opacity="0.4" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.898" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="pLDO">
+            <path d="M425,0 L425,0 C659.6,0 850,189.728 850,423.5 L850,423.5 C850,657.272 659.6,847 425,847 L425,847 C190.4,847 0,657.272 0,423.5 L0,423.5 C0,189.728 190.4,0 425,0 Z" id="Oval" fill="url(#linearGradient-1)" fill-rule="nonzero"></path>
+            <g id="Oval-Clipped" transform="translate(193.973785, 390.975200)">
+                <mask id="mask-3" fill="white">
+                    <use xlink:href="#path-2"></use>
+                </mask>
+                <g id="path-2"></g>
+                <ellipse id="Oval" fill="url(#radialGradient-4)" fill-rule="nonzero" mask="url(#mask-3)" cx="230.686215" cy="131.1156" rx="230.86" ry="230.0452"></ellipse>
+            </g>
+            <path d="M424.66,498.7136 L235.28,390.9752 L230.18,398.7676 C172.04,487.872 184.96,604.4192 261.46,679.294 C351.56,767.382 497.76,767.382 587.86,679.294 C664.36,604.4192 677.28,487.872 619.14,398.7676 L614.04,390.9752 L424.66,498.7136 Z" id="Path"></path>
+            <polygon id="Path" fill-opacity="0.15" fill="#FFFFFF" fill-rule="nonzero" points="424.66 258.1656 261.46 350.9968 424.66 443.828 587.86 350.9968"></polygon>
+            <polygon id="Path" fill-opacity="0.9" fill="#FFFFFF" fill-rule="nonzero" points="425 282.2204 235.28 390.9752 424.66 498.7136 613.7 390.9752"></polygon>
+            <polygon id="Path" fill-opacity="0.7" fill="#720FFF" fill-rule="nonzero" points="425 282.2204 565.953 363.4564 424.66 443.828 283.325 363.4334"></polygon>
+            <polygon id="Path" fill-opacity="0.7" fill="#FFFFFF" fill-rule="nonzero" points="424.66 101.64 261.46 350.9968 424.66 443.828"></polygon>
+            <polygon id="Path" fill="url(#linearGradient-5)" fill-rule="nonzero" points="424.66 443.828 587.86 350.9968 424.66 101.64"></polygon>
+        </g>
+    </g>
+</svg>

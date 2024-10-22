@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400px" height="400px" viewBox="0 0 400 400" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>pMANA</title>
+    <defs>
+        <linearGradient x1="73.4846527%" y1="5.78194051%" x2="26.405534%" y2="94.2266505%" id="linearGradient-1">
+            <stop stop-color="#00EAFF" offset="0%"></stop>
+            <stop stop-color="#0080FF" offset="25.2530882%"></stop>
+            <stop stop-color="#8000FF" offset="49.7394282%"></stop>
+            <stop stop-color="#E619E6" offset="74.9912298%"></stop>
+            <stop stop-color="#FF0000" offset="99.9136118%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="pMANA" fill-rule="nonzero">
+            <circle id="Oval" fill="url(#linearGradient-1)" cx="200" cy="200" r="200"></circle>
+            <polygon id="Path" fill="#FFFFFF" opacity="0.6" points="141.7 130 141.7 280 266.7 280"></polygon>
+            <polygon id="Path" fill="#FFFFFF" points="16.7 280 141.7 280 141.7 130"></polygon>
+            <path d="M40,320 C51.4,335.1 64.9,348.6 80,360 L320,360 C335.1,348.6 348.6,335.1 360,320 L40,320 Z" id="Path" fill="#FFFFFF" opacity="0.8"></path>
+            <path d="M80,360 C113.4,385.1 155,400 200,400 C245,400 286.6,385.1 320,360 L80,360 Z" id="Path" fill="#FFFFFF" opacity="0.9"></path>
+            <polygon id="Path" fill="#FFFFFF" opacity="0.6" points="268.3 210 268.3 320 360 320"></polygon>
+            <path d="M268.3,280 L16.7,280 C22.9,294.3 30.8,307.7 40,320 L268.4,320 L268.4,280 L268.3,280 L268.3,280 Z" id="Path" fill="#FFFFFF" opacity="0.7"></path>
+            <polygon id="Path" fill="#FFFFFF" points="176.7 320 268.3 320 268.3 210"></polygon>
+            <circle id="Oval" fill="#FFFFFF" opacity="0.7" cx="268.3" cy="130" r="50"></circle>
+            <circle id="Oval" fill="#FFFFFF" opacity="0.7" cx="141.7" cy="75" r="25"></circle>
+        </g>
+    </g>
+</svg>

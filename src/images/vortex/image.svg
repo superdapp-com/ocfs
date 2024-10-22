@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="94px" height="89px" viewBox="0 0 94 89" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>VRX</title>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#59EB90" offset="0%"></stop>
+            <stop stop-color="#7AFF84" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M37.907948,0.0863812024 L44.3933777,19.1114271 L41.3540321,27.7115625 L34.5944912,7.07117567 L9.11399481,7.07117567 L33.7412211,81.1077019 L45.544781,81.1077019 L67.5168397,15.1560768 L73.3745105,15.1560768 L48.7862217,88.0802933 L30.5592547,88.0802933 L0.738012114,0.0863812024 L37.907948,0.0863812024 Z M93.8657839,0.0863812024 L64.4491374,88.0802933 L58.6078185,88.0802933 L85.9716351,7.00847068 L60.3219788,7.00847068 L39.4508871,69.0190878 L21.4337353,15.1912354 L27.4358694,15.1912354 L39.4508871,51.4234712 L57.008372,0.0863812024 L93.8657839,0.0863812024 Z" id="VRX" fill="url(#linearGradient-1)"></path>
+    </g>
+</svg>

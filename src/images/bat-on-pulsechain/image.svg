@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="2000px" height="2000px" viewBox="0 0 2000 2000" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>pBAT</title>
+    <defs>
+        <linearGradient x1="73.2598288%" y1="5.58013797%" x2="26.3656058%" y2="94.2750598%" id="linearGradient-1">
+            <stop stop-color="#00EAFF" offset="0%"></stop>
+            <stop stop-color="#0080FF" offset="25.2530882%"></stop>
+            <stop stop-color="#8000FF" offset="49.7394282%"></stop>
+            <stop stop-color="#E619E6" offset="74.9912298%"></stop>
+            <stop stop-color="#FF0000" offset="99.9136118%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="pBAT">
+            <path d="M1000,2000 C1552.3,2000 2000,1552.3 2000,1000 C2000,447.7 1552.3,0 1000,0 C447.7,0 0,447.7 0,1000 C0,1552.3 447.7,2000 1000,2000 Z" id="bg" fill="url(#linearGradient-1)" fill-rule="nonzero"></path>
+            <polygon id="base" fill="#FFFFFF" opacity="0.7" points="370 1472 729.1 1267.55934 1275.625 1267.55934 1630 1470.42496"></polygon>
+            <polygon id="right" fill="#FFFFFF" opacity="0.85" points="1630 1470.42496 1275.625 1267.55934 1003.15 815.836824 1003.15 389"></polygon>
+            <path d="M1003.15,389 L1003.15,815.836824 L1275.625,1267.55934 L729.1,1267.55934 L370,1472 L1003.15,389 Z M1001.74699,842.589885 L756.78913,1251.7585 L1247.80168,1251.7585 L1001.74699,842.589885 Z" id="left" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>

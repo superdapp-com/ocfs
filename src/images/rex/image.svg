@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500px" height="500px" viewBox="0 0 500 500" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>REX</title>
+    <g id="REX" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <polygon id="Path" fill="#FF00FF" points="5.68434189e-14 85 150.460809 85 322.340198 249.141126 150.460809 414.983844 5.68434189e-14 414.983844 169.896756 249.141126"></polygon>
+        <path d="M356.84328,220.816314 L280.786047,146.828856 L345.476037,85 L497.810016,85 L356.84328,220.816314 Z M356.412959,276.891916 L280.786047,351.457209 L347.66602,415 L500,415 L356.412959,276.891916 Z" id="Shape" fill="#FFFFFF"></path>
+    </g>
+</svg>

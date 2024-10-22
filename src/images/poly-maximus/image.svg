@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>POLY</title>
+    <g id="POLY" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="Oval" fill="#00D1FF" cx="50" cy="50" r="50"></circle>
+        <circle id="Oval-Copy-2" fill="#000000" cx="50" cy="50" r="42"></circle>
+        <path d="M50,24 C64.3594035,24 76,35.6405965 76,50 C76,64.3594035 64.3594035,76 50,76 C44.8454401,76 40.0412194,74.5000195 36.0000219,71.9127423 L36,93.8663253 L24,86.651057 L24,50 C24,35.6405965 35.6405965,24 50,24 Z M50,36 C42.2680135,36 36,42.2680135 36,50 C36,57.7319865 42.2680135,64 50,64 C57.7319865,64 64,57.7319865 64,50 C64,42.2680135 57.7319865,36 50,36 Z" id="Combined-Shape" fill="#00D1FF"></path>
+    </g>
+</svg>

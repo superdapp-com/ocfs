@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1690px" height="1309px" viewBox="0 0 1690 1309" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>RFX</title>
+    <defs>
+        <linearGradient x1="-4.87890978e-16%" y1="50%" x2="100%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#F68305" offset="0%"></stop>
+            <stop stop-color="#FA6504" offset="49.7608572%"></stop>
+            <stop stop-color="#E733A6" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M1279,867 L1690,1063 L1690,1112 L1279,1309 L892,1081 L1279,867 Z M-5.68434189e-14,330 L372,519 L374,1304 L5.68434189e-14,1113 L-5.68434189e-14,330 Z M1257,38 L1257,827 L416,1299 L416,519 L1257,38 Z M1298,31 L1690,233 L1690,1012 L1298,828 L1298,31 Z M398,0 L799,246 L392,482 L0,281 L0,228 L398,0 Z" id="RFX" fill="url(#linearGradient-1)"></path>
+    </g>
+</svg>

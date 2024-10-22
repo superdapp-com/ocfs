@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1024px" height="1024px" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>eTRIO</title>
+    <g id="PRC20s" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="eTRIO" fill-rule="nonzero">
+            <circle id="Oval" fill="#627EEA" cx="512" cy="512" r="512"></circle>
+            <circle id="Oval-Copy-2" fill="#FFFFFF" cx="512" cy="512" r="425"></circle>
+            <circle id="Oval-Copy-3" fill="#000000" cx="512" cy="512" r="68"></circle>
+            <circle id="Oval-Copy-4" fill="#000000" cx="656.5" cy="367.5" r="68"></circle>
+            <circle id="Oval-Copy-5" fill="#000000" cx="367.5" cy="656.5" r="68"></circle>
+        </g>
+    </g>
+</svg>
