@@ -1,6 +1,6 @@
 import * as fs from 'fs';
 import { Chain, createPublicClient, erc20Abi, getAddress} from "viem";
-import { chains, transportMap, getChainFolder } from "./globals.js";
+import { chains, transportMap, getChainFolder, getTokenNameSymbol } from "./globals.js";
 
 
 export const buildTokenList = async () => {
@@ -57,8 +57,7 @@ const getTokenList = async (chain: Chain) => {
     const tokenMap: Record<string, any> = {};
 
     tokens.forEach((token) => {
-        const nameSymbol = `${token.name}_${token.symbol}`.replace(/\s+/g, '-').toLowerCase();
-        const tokenDataPath = `${outBasePath}/tokens/${nameSymbol}/${token.address}/`
+        const tokenDataPath = `${outBasePath}/tokens/${getTokenNameSymbol(token)}/${token.address}/`
         fs.mkdirSync(`${tokenDataPath}`, { recursive: true });
         fs.writeFileSync(`${tokenDataPath}/erc20.json`, JSON.stringify(token, null, 2));
         const key = `${token.chainId}-${token.address}`;

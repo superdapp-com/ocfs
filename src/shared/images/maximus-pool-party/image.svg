@@ -1,0 +1,55 @@
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="50" cy="50" r="50" fill="url(#paint0_linear_3050_541)"/>
+<circle cx="50" cy="50" r="42" fill="#B0F7FF"/>
+<path d="M78.5 77H68.5L62.5 88.5L71 85L78.5 77Z" fill="#FFCCFE"/>
+<path d="M69.5 77H58.5L54 89.5L62 87.5L69.5 77Z" fill="#99F7FF"/>
+<path d="M59 77H41.5L45 88L50 91L59 77Z" fill="#FE34FB"/>
+<path d="M42 77.5H32L35.5 83.5L46 89L42 77.5Z" fill="#FFCCFE"/>
+<path d="M31.5 77.5H22L27 83L37.5 87.5L31.5 77.5Z" fill="#FE67FC"/>
+<path d="M37.5 59.5H24.5L30.5 77H41.5L37.5 59.5Z" fill="#FE01FA"/>
+<path d="M89 59H75.5L69.5 76.5H78.5L84.5 71L89 59Z" fill="#33EEFF"/>
+<path d="M75.5 59.5H61.5L59 77.5H70L75.5 59.5Z" fill="#FF99FD"/>
+<path d="M21 77.5L10 59.5H24.5L30.5 77.5H21Z" fill="#33EEFF"/>
+<path d="M62 59H38L41.5 77.5H58.5L62 59Z" fill="#99F7FF"/>
+<path d="M23 21.5L33 13H36.5L32 22.5L23 21.5Z" fill="#E6FDFF"/>
+<path d="M31 23.5L39.5 12.5H45.5L42 23.5H31Z" fill="#FF99FD"/>
+<path d="M41 23.5L46.5 11H53L59 23.5H41Z" fill="#99F7FF"/>
+<path d="M70.5 23.5L63.5 15L67.5 13L78.5 22L70.5 23.5Z" fill="#FE67FC"/>
+<path d="M58 22.5L54.5 12.5H62.5L68.5 22.5H58Z" fill="#66F2FF"/>
+<path d="M75.5 41.5L70 23.5H81L89.5 41.5H75.5Z" fill="#FE01FA"/>
+<path d="M11 41L20 23.5H30.5L24.5 41H11Z" fill="#FE01FA"/>
+<path d="M38 41.5L42 22.5H59L61.5 41.5H38Z" fill="#FFE6FF"/>
+<path d="M62 41.5L59.5 24H70.5L75.5 41.5H62Z" fill="#FE67FC"/>
+<path d="M25 41L30.5 24H41L38.5 41H25Z" fill="#99F7FF"/>
+<path d="M11 60V40.5H24.5V60H11Z" fill="#99F7FF"/>
+<path d="M37.5 59.5L39.5 41H25V59.5H37.5Z" fill="#FE67FC"/>
+<path d="M61.5 40.5H43H38V59H61.5V40.5Z" fill="#FF99FD"/>
+<path d="M76 40.5H65H62.5V58.5H76V40.5Z" fill="#FF99FD"/>
+<path d="M89.5 41H80.5H76V59H89.5V41Z" fill="#66F2FF"/>
+<mask id="mask0_3050_541" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="8" y="8" width="84" height="84">
+<circle cx="50" cy="50" r="42" fill="#FE01FA"/>
+</mask>
+<g mask="url(#mask0_3050_541)">
+<rect x="2" y="21" width="90" height="4" fill="black"/>
+<rect x="2" y="57" width="90" height="4" fill="black"/>
+<rect x="2" y="39" width="90" height="4" fill="black"/>
+<rect x="2" y="75" width="90" height="4" fill="black"/>
+</g>
+<path d="M62 50C62 61.4428 60.451 71.7194 58.0021 79.066C56.7742 82.7498 55.3561 85.5867 53.8786 87.4615C52.3833 89.3589 51.0575 90 50 90C48.9425 90 47.6167 89.3589 46.1214 87.4615C44.6439 85.5867 43.2258 82.7498 41.9979 79.066C39.549 71.7194 38 61.4428 38 50C38 38.5572 39.549 28.2806 41.9979 20.934C43.2258 17.2502 44.6439 14.4133 46.1214 12.5385C47.6167 10.6411 48.9425 10 50 10C51.0575 10 52.3833 10.6411 53.8786 12.5385C55.3561 14.4133 56.7742 17.2502 58.0021 20.934C60.451 28.2806 62 38.5572 62 50Z" stroke="black" stroke-width="4"/>
+<circle cx="50" cy="50" r="40" stroke="black" stroke-width="4"/>
+<path d="M76 50C76 61.2582 72.9542 71.3601 68.1349 78.5891C63.3063 85.832 56.8552 90 50 90C43.1448 90 36.6937 85.832 31.8651 78.5891C27.0458 71.3601 24 61.2582 24 50C24 38.7418 27.0458 28.6399 31.8651 21.4109C36.6937 14.168 43.1448 10 50 10C56.8552 10 63.3063 14.168 68.1349 21.4109C72.9542 28.6399 76 38.7418 76 50Z" stroke="black" stroke-width="4"/>
+<mask id="mask1_3050_541" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="100" height="100">
+<circle cx="50" cy="50" r="50" fill="#D9D9D9"/>
+</mask>
+<g mask="url(#mask1_3050_541)">
+<path d="M67 4L69.3759 29.6241L95 32L69.3759 34.3759L67 60L64.6241 34.3759L39 32L64.6241 29.6241L67 4Z" fill="white"/>
+<path d="M33 48L35.2627 65.7373L53 68L35.2627 70.2627L33 88L30.7373 70.2627L13 68L30.7373 65.7373L33 48Z" fill="white"/>
+<path d="M39 4L40.4849 16.5151L53 18L40.4849 19.4849L39 32L37.5151 19.4849L25 18L37.5151 16.5151L39 4Z" fill="white"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_3050_541" x1="50" y1="100" x2="50" y2="3.75746e-07" gradientUnits="userSpaceOnUse">
+<stop offset="0.0819109" stop-color="#00EAFF"/>
+<stop offset="0.921842" stop-color="#FE01FA"/>
+</linearGradient>
+</defs>
+</svg>

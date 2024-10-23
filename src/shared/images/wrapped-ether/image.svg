@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="2500px" height="2500px" viewBox="0 0 2500 2500" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ETH</title>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g fill-rule="nonzero">
+            <circle fill="#627EEA" cx="1250" cy="1250" r="1250"></circle>
+            <g transform="translate(689.000000, 290.000000)" fill="#FFFFFF">
+                <polygon fill-opacity="0.602" points="600.5 0 600.5 709.91762 1201 978.037578"></polygon>
+                <polygon points="600.5 0 0 978.037578 600.5 709.91762"></polygon>
+                <polygon fill-opacity="0.602" points="600.5 1437.60152 600.5 1920 1201 1089.26931"></polygon>
+                <polygon points="600.5 1920 600.5 1437.52148 0 1089.26931"></polygon>
+                <polygon fill-opacity="0.2" points="600.5 1325.762 1201 977.973167 600.5 710.480167"></polygon>
+                <polygon fill-opacity="0.602" points="0 977.973167 600.5 1325.762 600.5 710.480167"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,6 +1,6 @@
 {
   "name": "superdapp-protocols-8453_base",
-  "timestamp": 1729632130044,
+  "timestamp": 1729653941263,
   "version": {
     "major": 1,
     "minor": 0,
@@ -14,39 +14,39 @@
   ],
   "protocols": [
     {
-      "protocol": "aave-v3-pool-data-provider",
+      "name": "aave-v3-pool-data-provider",
       "address": "0x2d8A3C5677189723C4cB8873CfC9C8976FDF38Ac"
     },
     {
-      "protocol": "dbxen-views",
+      "name": "dbxen-views",
       "address": "0xF3281221bA95af0C5BBcBd2474cE8C090233133b"
     },
     {
-      "protocol": "xenft",
+      "name": "xenft",
       "address": "0x379002701BF6f2862e3dFdd1f96d3C5E1BF450B6"
     },
     {
-      "protocol": "dbxen",
+      "name": "dbxen",
       "address": "0x30782c020FE90614f08a863B41CbB07A2D2D94fF"
     },
     {
-      "protocol": "coin-tool",
+      "name": "coin-tool",
       "address": "0x9Ec1C3DcF667f2035FB4CD2eB42A1566fd54d2B7"
     },
     {
-      "protocol": "fenix",
+      "name": "fenix",
       "address": "0x07FdE3eD7727c1D84171A6e5815964d50827CF69"
     },
     {
-      "protocol": "aave-v3-pool",
+      "name": "aave-v3-pool",
       "address": "0xA238Dd80C259a72e81d7e4664a9801593F98d1c5"
     },
     {
-      "protocol": "xen-crypto",
+      "name": "xen-crypto",
       "address": "0xffcbF84650cE02DaFE96926B37a0ac5E34932fa5"
     },
     {
-      "protocol": "degen",
+      "name": "degen",
       "address": "0x4ed4E862860beD51a9570b96d89aF5E1B0Efefed"
     }
   ],

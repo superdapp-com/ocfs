@@ -1,6 +1,6 @@
 {
   "name": "superdapp-tokens-1_ethereum",
-  "timestamp": 1729632130424,
+  "timestamp": 1729653941551,
   "version": {
     "major": 1,
     "minor": 0,
@@ -288,13 +288,6 @@
     },
     {
       "chainId": 1,
-      "address": "0x40D16FC0246aD3160Ccc09B8D0D3A2cD28aE6C2f",
-      "name": "Gho Token",
-      "symbol": "GHO",
-      "decimals": 18
-    },
-    {
-      "chainId": 1,
       "address": "0xD33526068D116cE69F19A9ee46F0bd304F21A51f",
       "name": "Rocket Pool Protocol",
       "symbol": "RPL",
@@ -354,48 +347,6 @@
       "address": "0xf1C9acDc66974dFB6dEcB12aA385b9cD01190E38",
       "name": "Staked ETH",
       "symbol": "osETH",
-      "decimals": 18
-    },
-    {
-      "chainId": 1,
-      "address": "0x4c9EDD5852cd905f086C759E8383e09bff1E68B3",
-      "name": "USDe",
-      "symbol": "USDe",
-      "decimals": 18
-    },
-    {
-      "chainId": 1,
-      "address": "0xA35b1B31Ce002FBF2058D22F30f95D405200A15b",
-      "name": "ETHx",
-      "symbol": "ETHx",
-      "decimals": 18
-    },
-    {
-      "chainId": 1,
-      "address": "0x9D39A5DE30e57443BfF2A8307A4256c8797A3497",
-      "name": "Staked USDe",
-      "symbol": "sUSDe",
-      "decimals": 18
-    },
-    {
-      "chainId": 1,
-      "address": "0x18084fbA666a33d37592fA2633fD49a74DD93a88",
-      "name": "tBTC v2",
-      "symbol": "tBTC",
-      "decimals": 18
-    },
-    {
-      "chainId": 1,
-      "address": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
-      "name": "Coinbase Wrapped BTC",
-      "symbol": "cbBTC",
-      "decimals": 8
-    },
-    {
-      "chainId": 1,
-      "address": "0xdC035D45d973E3EC169d2276DDab16f1e407384F",
-      "name": "USDS Stablecoin",
-      "symbol": "USDS",
       "decimals": 18
     }
   ],
@@ -673,13 +624,6 @@
       "symbol": "FRAX",
       "decimals": 18
     },
-    "1-0x40D16FC0246aD3160Ccc09B8D0D3A2cD28aE6C2f": {
-      "chainId": 1,
-      "address": "0x40D16FC0246aD3160Ccc09B8D0D3A2cD28aE6C2f",
-      "name": "Gho Token",
-      "symbol": "GHO",
-      "decimals": 18
-    },
     "1-0xD33526068D116cE69F19A9ee46F0bd304F21A51f": {
       "chainId": 1,
       "address": "0xD33526068D116cE69F19A9ee46F0bd304F21A51f",
@@ -741,48 +685,6 @@
       "address": "0xf1C9acDc66974dFB6dEcB12aA385b9cD01190E38",
       "name": "Staked ETH",
       "symbol": "osETH",
-      "decimals": 18
-    },
-    "1-0x4c9EDD5852cd905f086C759E8383e09bff1E68B3": {
-      "chainId": 1,
-      "address": "0x4c9EDD5852cd905f086C759E8383e09bff1E68B3",
-      "name": "USDe",
-      "symbol": "USDe",
-      "decimals": 18
-    },
-    "1-0xA35b1B31Ce002FBF2058D22F30f95D405200A15b": {
-      "chainId": 1,
-      "address": "0xA35b1B31Ce002FBF2058D22F30f95D405200A15b",
-      "name": "ETHx",
-      "symbol": "ETHx",
-      "decimals": 18
-    },
-    "1-0x9D39A5DE30e57443BfF2A8307A4256c8797A3497": {
-      "chainId": 1,
-      "address": "0x9D39A5DE30e57443BfF2A8307A4256c8797A3497",
-      "name": "Staked USDe",
-      "symbol": "sUSDe",
-      "decimals": 18
-    },
-    "1-0x18084fbA666a33d37592fA2633fD49a74DD93a88": {
-      "chainId": 1,
-      "address": "0x18084fbA666a33d37592fA2633fD49a74DD93a88",
-      "name": "tBTC v2",
-      "symbol": "tBTC",
-      "decimals": 18
-    },
-    "1-0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf": {
-      "chainId": 1,
-      "address": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
-      "name": "Coinbase Wrapped BTC",
-      "symbol": "cbBTC",
-      "decimals": 8
-    },
-    "1-0xdC035D45d973E3EC169d2276DDab16f1e407384F": {
-      "chainId": 1,
-      "address": "0xdC035D45d973E3EC169d2276DDab16f1e407384F",
-      "name": "USDS Stablecoin",
-      "symbol": "USDS",
       "decimals": 18
     }
   }

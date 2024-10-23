@@ -13,3 +13,7 @@ export const getChainFolder = (chain: Chain) => {
     const chainName = chain.name.toLowerCase();
     return `${chain.id}_${chainName}`;
 };
+
+export const getTokenNameSymbol = (token: any) => {
+    return `${token.name}_${token.symbol}`.replace(/\s+/g, '-').toLowerCase();
+};
