@@ -1,6 +1,6 @@
 {
   "name": "superdapp-tokens-8453_base",
-  "timestamp": 1729632130474,
+  "timestamp": 1729651987899,
   "version": {
     "major": 1,
     "minor": 0,
@@ -32,20 +32,6 @@
       "address": "0x532f27101965dd16442E59d40670FaF5eBB142E4",
       "name": "Brett",
       "symbol": "BRETT",
-      "decimals": 18
-    },
-    {
-      "chainId": 8453,
-      "address": "0xBa5B9B2D2d06a9021EB3190ea5Fb0e02160839A4",
-      "name": "Sendit",
-      "symbol": "Sendit",
-      "decimals": 18
-    },
-    {
-      "chainId": 8453,
-      "address": "0x7d89E05c0B93B24B5Cb23A073E60D008FEd1aCF9",
-      "name": "member",
-      "symbol": "member",
       "decimals": 18
     },
     {
@@ -111,20 +97,6 @@
       "address": "0x532f27101965dd16442E59d40670FaF5eBB142E4",
       "name": "Brett",
       "symbol": "BRETT",
-      "decimals": 18
-    },
-    "8453-0xBa5B9B2D2d06a9021EB3190ea5Fb0e02160839A4": {
-      "chainId": 8453,
-      "address": "0xBa5B9B2D2d06a9021EB3190ea5Fb0e02160839A4",
-      "name": "Sendit",
-      "symbol": "Sendit",
-      "decimals": 18
-    },
-    "8453-0x7d89E05c0B93B24B5Cb23A073E60D008FEd1aCF9": {
-      "chainId": 8453,
-      "address": "0x7d89E05c0B93B24B5Cb23A073E60D008FEd1aCF9",
-      "name": "member",
-      "symbol": "member",
       "decimals": 18
     },
     "8453-0x0578d8A44db98B23BF096A382e016e29a5Ce0ffe": {
