@@ -43,7 +43,7 @@ const getProtocolList = async (chain: Chain, protocols: string[]) => {
         },
         keywords: ["superdapp.com", "token", "list", chainFolder],
         protocols: Object.entries(protocolData).map(([protocol, address]) => ({
-            protocol,
+            name: protocol,
             address
         })),
         protocolMap: protocolData

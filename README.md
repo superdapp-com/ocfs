@@ -50,7 +50,9 @@ dist/
 └── [chain_id]/
     ├── tokenList.json
     ├── protocolList.json
-    ├── [protocol_name]_[contract_address].json
-    ├── [token_address]_erc20.json
+    ├── abi/
+    │   └── [protocol_name]_[contract_address].json
+    ├── erc20/
+    │   └── [token_address].json
     └── [token_address].svg
 ```
