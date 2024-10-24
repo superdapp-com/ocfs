@@ -23,11 +23,13 @@ export const dist = () => {
 
         fs.mkdirSync(`${outChainBasePath}/abi`, { recursive: true });
         fs.mkdirSync(`${outChainBasePath}/erc20`, { recursive: true });
+        fs.mkdirSync(`${outChainBasePath}/address`, { recursive: true });
 
         const protocolList = JSON.parse(fs.readFileSync(protocolListPath, "utf8"));
         for (const protocol of protocolList.protocols) {
             const { name, address } = protocol;
             fs.copyFileSync(`${sharedBasePath}/protocols/${name}/abi.json`, `${outChainBasePath}/abi/${name}_${address}.json`);
+            fs.writeFileSync(`${outChainBasePath}/address/protocol/${name}.json`, JSON.stringify({ address }, null, 2));
         }
 
         const tokenList = JSON.parse(fs.readFileSync(tokenListPath, "utf8"));
@@ -36,6 +38,7 @@ export const dist = () => {
             const tokenName = tokenNameSymbol.split("_")[0];
             fs.copyFileSync(`${sharedBasePath}/images/${tokenName}/image.svg`, `${outChainBasePath}/${token.address}.svg`);
             fs.copyFileSync(`${inChainBasePath}/tokens/${tokenNameSymbol}/${token.address}/erc20.json`, `${outChainBasePath}/erc20/${token.address}.json`);
+            fs.writeFileSync(`${outChainBasePath}/address/token/${tokenName}.json`, JSON.stringify({ address: token.address }, null, 2));
         }
     }
 
