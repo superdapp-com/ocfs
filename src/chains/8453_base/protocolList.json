@@ -1,6 +1,6 @@
 {
   "name": "superdapp-protocols-8453_base",
-  "timestamp": 1729653941263,
+  "timestamp": 1729729756861,
   "version": {
     "major": 1,
     "minor": 0,
@@ -24,6 +24,10 @@
     {
       "name": "xenft",
       "address": "0x379002701BF6f2862e3dFdd1f96d3C5E1BF450B6"
+    },
+    {
+      "name": "locked-degen",
+      "address": "0xa8a30E0dafCA4156f28d96cCa5671a0eEcA5E407"
     },
     {
       "name": "dbxen",
@@ -54,6 +58,7 @@
     "aave-v3-pool-data-provider": "0x2d8A3C5677189723C4cB8873CfC9C8976FDF38Ac",
     "dbxen-views": "0xF3281221bA95af0C5BBcBd2474cE8C090233133b",
     "xenft": "0x379002701BF6f2862e3dFdd1f96d3C5E1BF450B6",
+    "locked-degen": "0xa8a30E0dafCA4156f28d96cCa5671a0eEcA5E407",
     "dbxen": "0x30782c020FE90614f08a863B41CbB07A2D2D94fF",
     "coin-tool": "0x9Ec1C3DcF667f2035FB4CD2eB42A1566fd54d2B7",
     "fenix": "0x07FdE3eD7727c1D84171A6e5815964d50827CF69",
