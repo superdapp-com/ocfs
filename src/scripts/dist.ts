@@ -23,7 +23,8 @@ export const dist = () => {
 
         fs.mkdirSync(`${outChainBasePath}/abi`, { recursive: true });
         fs.mkdirSync(`${outChainBasePath}/erc20`, { recursive: true });
-        fs.mkdirSync(`${outChainBasePath}/address`, { recursive: true });
+        fs.mkdirSync(`${outChainBasePath}/address/protocol`, { recursive: true });
+        fs.mkdirSync(`${outChainBasePath}/address/token`, { recursive: true });
 
         const protocolList = JSON.parse(fs.readFileSync(protocolListPath, "utf8"));
         for (const protocol of protocolList.protocols) {
