@@ -7,8 +7,7 @@ type Stats = {
     actions: number;
 };
 
-export const buildMetrics = async () => {
-    const outBasePath = "./dist";
+export const buildMetrics = async (outBasePath: string) => {
 
     const chains = fs.readdirSync(`./src/chains`);
     const tokens = fs.readdirSync(`./src/shared/images`);
