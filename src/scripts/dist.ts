@@ -2,10 +2,9 @@ import * as fs from "fs";
 import { chains, getChainFolder, getTokenNameSymbol } from "./globals.js";
 
 
-export const dist = () => {
+export const dist = (outBasePath: string) => {
     const inBasePath = "./src/chains";
     const sharedBasePath = "./src/shared";
-    const outBasePath = "./dist";
     
     for (const chain of chains) {
         const chainFolder = getChainFolder(chain);
