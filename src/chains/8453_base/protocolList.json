@@ -1,6 +1,6 @@
 {
   "name": "superdapp-protocols-8453_base",
-  "timestamp": 1730771141896,
+  "timestamp": 1730775237798,
   "version": {
     "major": 1,
     "minor": 0,
@@ -51,7 +51,7 @@
     },
     {
       "name": "moxie-token-lock-wallet",
-      "address": "0xEAB4C22bbC334e181E0dE02F63A753F172E858d2"
+      "address": "0x0000000000000000000000000000000000000000"
     },
     {
       "name": "degen-airdrop1",
@@ -76,7 +76,7 @@
     "moxie-pass": "0x235CAD50d8a510Bc9081279996f01877827142D8",
     "fenix": "0x07FdE3eD7727c1D84171A6e5815964d50827CF69",
     "aave-v3-pool": "0xA238Dd80C259a72e81d7e4664a9801593F98d1c5",
-    "moxie-token-lock-wallet": "0xEAB4C22bbC334e181E0dE02F63A753F172E858d2",
+    "moxie-token-lock-wallet": "0x0000000000000000000000000000000000000000",
     "degen-airdrop1": "0xef9816e228Bb88a81178CD37C3fAB926BfC67517",
     "xen-crypto": "0xffcbF84650cE02DaFE96926B37a0ac5E34932fa5",
     "degen": "0x4ed4E862860beD51a9570b96d89aF5E1B0Efefed"
