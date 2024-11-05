@@ -60,7 +60,7 @@ const getTokenList = async (chain: Chain) => {
         const tokenDataPath = `${outBasePath}/tokens/${getTokenNameSymbol(token)}/${token.address}/`
         fs.mkdirSync(`${tokenDataPath}`, { recursive: true });
         fs.writeFileSync(`${tokenDataPath}/erc20.json`, JSON.stringify(token, null, 2));
-        const key = `${token.chainId}-${token.address}`;
+        const key = `${token.chainId}_${token.address}`;
         tokenMap[key] = token;
     });
 
