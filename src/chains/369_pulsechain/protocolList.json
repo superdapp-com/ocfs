@@ -1,6 +1,10 @@
 {
   "name": "superdapp-protocols-369_pulsechain",
+<<<<<<< HEAD
+  "timestamp": 1732047967197,
+=======
   "timestamp": 1732042354655,
+>>>>>>> main
   "version": {
     "major": 1,
     "minor": 0,
