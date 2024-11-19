@@ -1,6 +1,6 @@
 {
   "name": "superdapp-protocols-1_ethereum",
-  "timestamp": 1732048360680,
+  "timestamp": 1732049903248,
   "version": {
     "major": 1,
     "minor": 0,
@@ -58,6 +58,10 @@
       "address": "0x87870Bca3F3fD6335C3F4ce8392D69350B4fA4E2"
     },
     {
+      "name": "dbxen-token",
+      "address": "0x80f0C1c49891dcFDD40b6e0F960F84E6042bcB6F"
+    },
+    {
       "name": "aave-v2-pool-data-provider",
       "address": "0x00e50FAB64eBB37b87df06Aa46b8B35d5f1A4e1A"
     },
@@ -82,6 +86,7 @@
     "coin-tool": "0x0de8bf93da2f7eecb3d9169422413a9bef4ef628",
     "fenix": "0xC3e8abfA04B0EC442c2A4D65699a40F7FcEd8055",
     "aave-v3-pool": "0x87870Bca3F3fD6335C3F4ce8392D69350B4fA4E2",
+    "dbxen-token": "0x80f0C1c49891dcFDD40b6e0F960F84E6042bcB6F",
     "aave-v2-pool-data-provider": "0x00e50FAB64eBB37b87df06Aa46b8B35d5f1A4e1A",
     "lido-withdraw": "0xe42c659dc09109566720ea8b2de186c2be7d94d9",
     "xen-crypto": "0x06450dEe7FD2Fb8E39061434BAbCFC05599a6Fb8"
