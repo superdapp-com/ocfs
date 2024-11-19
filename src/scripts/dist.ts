@@ -2,22 +2,22 @@ import * as fs from "fs";
 import { chains, getChainFolder, getTokenNameSymbol } from "./globals.js";
 
 
-export const dist = (outBasePath: string) => {
+export const dist = (distBasePath: string) => {
     const inBasePath = "./src/chains";
     const sharedBasePath = "./src/shared";
     
     for (const chain of chains) {
         const chainFolder = getChainFolder(chain);
-        fs.mkdirSync(`${outBasePath}/${chain.id}`, { recursive: true });
+        fs.mkdirSync(`${distBasePath}/${chain.id}`, { recursive: true });
 
         const inChainBasePath = `${inBasePath}/${chainFolder}`;
-        const outChainBasePath = `${outBasePath}/${chain.id}`;
+        const outChainBasePath = `${distBasePath}/${chain.id}`;
 
         const chainLogoPath = `${inChainBasePath}/image.svg`;
         const tokenListPath = `${inChainBasePath}/tokenList.json`;
         const protocolListPath = `${inChainBasePath}/protocolList.json`;
-        fs.copyFileSync(chainLogoPath, `${outBasePath}/${chain.id}.svg`);
-        fs.linkSync(`${outBasePath}/${chain.id}.svg`, `${outBasePath}/${chain.id}/null.svg`);
+        fs.copyFileSync(chainLogoPath, `${distBasePath}/${chain.id}.svg`);
+        fs.linkSync(`${distBasePath}/${chain.id}.svg`, `${distBasePath}/${chain.id}_null.svg`);
         fs.copyFileSync(tokenListPath, `${outChainBasePath}/tokenList.json`);
         fs.copyFileSync(protocolListPath, `${outChainBasePath}/protocolList.json`);
 
