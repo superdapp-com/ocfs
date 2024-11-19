@@ -7,7 +7,7 @@ type Stats = {
     actions: number;
 };
 
-export const buildMetrics = async (outBasePath: string) => {
+export const buildMetrics = async (distBasePath: string) => {
 
     const chains = fs.readdirSync(`./src/chains`);
     const tokens = fs.readdirSync(`./src/shared/images`);
@@ -20,5 +20,5 @@ export const buildMetrics = async (outBasePath: string) => {
         actions: 12,
     };
 
-    fs.writeFileSync(`${outBasePath}/metrics.json`, JSON.stringify(stats, null, 2));
+    fs.writeFileSync(`${distBasePath}/metrics.json`, JSON.stringify(stats, null, 2));
 }

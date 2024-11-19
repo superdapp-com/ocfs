@@ -10,10 +10,10 @@ switch (process.argv[2]) {
         buildTokenList();
         break;
     case "--dist":
-        const outBasePath = "./dist";
-        fs.mkdirSync(outBasePath, { recursive: true });
-        buildMetrics(outBasePath);
-        dist(outBasePath);
+        const distBasePath = "./dist";
+        fs.mkdirSync(distBasePath, { recursive: true });
+        buildMetrics(distBasePath);
+        dist(distBasePath);
         break;
     default:
         console.log("no flag provided");
