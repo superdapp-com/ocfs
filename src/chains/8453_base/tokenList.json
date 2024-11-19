@@ -1,6 +1,10 @@
 {
   "name": "superdapp-tokens-8453_base",
+<<<<<<< HEAD
   "timestamp": 1732047967539,
+=======
+  "timestamp": 1732042354872,
+>>>>>>> main
   "version": {
     "major": 1,
     "minor": 0,

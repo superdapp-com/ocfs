@@ -1,6 +1,10 @@
 {
   "name": "superdapp-tokens-369_pulsechain",
+<<<<<<< HEAD
   "timestamp": 1732047967913,
+=======
+  "timestamp": 1732042355398,
+>>>>>>> main
   "version": {
     "major": 1,
     "minor": 0,
