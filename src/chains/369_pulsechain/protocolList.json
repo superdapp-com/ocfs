@@ -1,6 +1,6 @@
 {
   "name": "superdapp-protocols-369_pulsechain",
-  "timestamp": 1732049903249,
+  "timestamp": 1732127154539,
   "version": {
     "major": 1,
     "minor": 0,
@@ -40,6 +40,10 @@
     {
       "name": "xen-crypto",
       "address": "0x8a7FDcA264e87b6da72D000f22186B4403081A2a"
+    },
+    {
+      "name": "hedron",
+      "address": "0x3819f64f282bf135d62168C1e513280dAF905e06"
     }
   ],
   "protocolMap": {
@@ -49,6 +53,7 @@
     "dbxen": "0x6d38Ab9f5b5Edfb22e57a44c3c747f9584de1f1a",
     "coin-tool": "0x0de8bf93da2f7eecb3d9169422413a9bef4ef628",
     "fenix": "0xC3e8abfA04B0EC442c2A4D65699a40F7FcEd8055",
-    "xen-crypto": "0x8a7FDcA264e87b6da72D000f22186B4403081A2a"
+    "xen-crypto": "0x8a7FDcA264e87b6da72D000f22186B4403081A2a",
+    "hedron": "0x3819f64f282bf135d62168C1e513280dAF905e06"
   }
 }

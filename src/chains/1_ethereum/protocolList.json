@@ -1,6 +1,6 @@
 {
   "name": "superdapp-protocols-1_ethereum",
-  "timestamp": 1732049903248,
+  "timestamp": 1732127154539,
   "version": {
     "major": 1,
     "minor": 0,
@@ -72,6 +72,10 @@
     {
       "name": "xen-crypto",
       "address": "0x06450dEe7FD2Fb8E39061434BAbCFC05599a6Fb8"
+    },
+    {
+      "name": "hedron",
+      "address": "0x3819f64f282bf135d62168C1e513280dAF905e06"
     }
   ],
   "protocolMap": {
@@ -89,6 +93,7 @@
     "dbxen-token": "0x80f0C1c49891dcFDD40b6e0F960F84E6042bcB6F",
     "aave-v2-pool-data-provider": "0x00e50FAB64eBB37b87df06Aa46b8B35d5f1A4e1A",
     "lido-withdraw": "0xe42c659dc09109566720ea8b2de186c2be7d94d9",
-    "xen-crypto": "0x06450dEe7FD2Fb8E39061434BAbCFC05599a6Fb8"
+    "xen-crypto": "0x06450dEe7FD2Fb8E39061434BAbCFC05599a6Fb8",
+    "hedron": "0x3819f64f282bf135d62168C1e513280dAF905e06"
   }
 }
