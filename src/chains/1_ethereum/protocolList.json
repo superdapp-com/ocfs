@@ -1,6 +1,6 @@
 {
   "name": "superdapp-protocols-1_ethereum",
-  "timestamp": 1732127154539,
+  "timestamp": 1732154360988,
   "version": {
     "major": 1,
     "minor": 0,
@@ -36,6 +36,10 @@
     {
       "name": "dbxen",
       "address": "0xF5c80c305803280B587F8cabBcCdC4d9BF522AbD"
+    },
+    {
+      "name": "maximus-team",
+      "address": "0xB7c9E99Da8A857cE576A830A9c19312114d9dE02"
     },
     {
       "name": "nonfungible-position-manager",
@@ -85,6 +89,7 @@
     "dbxen-views": "0xf032f7FB8258728A1938473B2115BB163d5Da593",
     "xenft": "0x0a252663DBCc0b073063D6420a40319e438Cfa59",
     "dbxen": "0xF5c80c305803280B587F8cabBcCdC4d9BF522AbD",
+    "maximus-team": "0xB7c9E99Da8A857cE576A830A9c19312114d9dE02",
     "nonfungible-position-manager": "0xC36442b4a4522E871399CD717aBDD847Ab11FE88",
     "aave-v2-pool": "0x7d2768dE32b0b80b7a3454c06BdAc94A69DDc7A9",
     "coin-tool": "0x0de8bf93da2f7eecb3d9169422413a9bef4ef628",
