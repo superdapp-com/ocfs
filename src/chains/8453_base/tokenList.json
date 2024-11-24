@@ -1,6 +1,6 @@
 {
   "name": "superdapp-tokens-8453_base",
-  "timestamp": 1732468801073,
+  "timestamp": 1732469357634,
   "version": {
     "major": 1,
     "minor": 0,
@@ -75,6 +75,20 @@
       "name": "Moxie",
       "symbol": "MOXIE",
       "decimals": 18
+    },
+    {
+      "chainId": 8453,
+      "address": "0x3B18F2ec50719Fd459e4234D16b38aF74Ab5Ab7a",
+      "name": "33BITS",
+      "symbol": "$33BITS",
+      "decimals": 18
+    },
+    {
+      "chainId": 8453,
+      "address": "0x0Db510e79909666d6dEc7f5e49370838c16D950f",
+      "name": "Super Anon",
+      "symbol": "ANON",
+      "decimals": 18
     }
   ],
   "tokenMap": {
@@ -139,6 +153,20 @@
       "address": "0x8C9037D1Ef5c6D1f6816278C7AAF5491d24CD527",
       "name": "Moxie",
       "symbol": "MOXIE",
+      "decimals": 18
+    },
+    "8453_0x3B18F2ec50719Fd459e4234D16b38aF74Ab5Ab7a": {
+      "chainId": 8453,
+      "address": "0x3B18F2ec50719Fd459e4234D16b38aF74Ab5Ab7a",
+      "name": "33BITS",
+      "symbol": "$33BITS",
+      "decimals": 18
+    },
+    "8453_0x0Db510e79909666d6dEc7f5e49370838c16D950f": {
+      "chainId": 8453,
+      "address": "0x0Db510e79909666d6dEc7f5e49370838c16D950f",
+      "name": "Super Anon",
+      "symbol": "ANON",
       "decimals": 18
     }
   }
