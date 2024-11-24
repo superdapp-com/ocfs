@@ -17,6 +17,8 @@ export const dist = (distBasePath: string) => {
         const tokenListPath = `${inChainBasePath}/tokenList.json`;
         const protocolListPath = `${inChainBasePath}/protocolList.json`;
         fs.copyFileSync(chainLogoPath, `${distBasePath}/${chain.id}.svg`);
+        console.log(`${distBasePath}/${chain.id}.svg`);
+        console.log(`${distBasePath}/${chain.id}/null.svg`);
         fs.linkSync(`${distBasePath}/${chain.id}.svg`, `${distBasePath}/${chain.id}/null.svg`);
         fs.copyFileSync(tokenListPath, `${outChainBasePath}/tokenList.json`);
         fs.copyFileSync(protocolListPath, `${outChainBasePath}/protocolList.json`);
