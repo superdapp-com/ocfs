@@ -1,6 +1,6 @@
 {
   "name": "superdapp-tokens-369_pulsechain",
-  "timestamp": 1732154361713,
+  "timestamp": 1732468801451,
   "version": {
     "major": 1,
     "minor": 0,
@@ -215,6 +215,27 @@
       "name": "XEN Crypto",
       "symbol": "XEN",
       "decimals": 18
+    },
+    {
+      "chainId": 369,
+      "address": "0x34F0915a5f15a66Eba86F6a58bE1A471FB7836A7",
+      "name": "PulseDogecoin",
+      "symbol": "PLSD",
+      "decimals": 12
+    },
+    {
+      "chainId": 369,
+      "address": "0x5EE84583f67D5EcEa5420dBb42b462896E7f8D06",
+      "name": "PulseBitcoin",
+      "symbol": "PLSB",
+      "decimals": 12
+    },
+    {
+      "chainId": 369,
+      "address": "0x3ca80d83277e721171284667829c686527B8b3c5",
+      "name": "9INCH",
+      "symbol": "9INCH",
+      "decimals": 18
     }
   ],
   "tokenMap": {
@@ -419,6 +440,27 @@
       "address": "0x06450dEe7FD2Fb8E39061434BAbCFC05599a6Fb8",
       "name": "XEN Crypto",
       "symbol": "XEN",
+      "decimals": 18
+    },
+    "369_0x34F0915a5f15a66Eba86F6a58bE1A471FB7836A7": {
+      "chainId": 369,
+      "address": "0x34F0915a5f15a66Eba86F6a58bE1A471FB7836A7",
+      "name": "PulseDogecoin",
+      "symbol": "PLSD",
+      "decimals": 12
+    },
+    "369_0x5EE84583f67D5EcEa5420dBb42b462896E7f8D06": {
+      "chainId": 369,
+      "address": "0x5EE84583f67D5EcEa5420dBb42b462896E7f8D06",
+      "name": "PulseBitcoin",
+      "symbol": "PLSB",
+      "decimals": 12
+    },
+    "369_0x3ca80d83277e721171284667829c686527B8b3c5": {
+      "chainId": 369,
+      "address": "0x3ca80d83277e721171284667829c686527B8b3c5",
+      "name": "9INCH",
+      "symbol": "9INCH",
       "decimals": 18
     }
   }
