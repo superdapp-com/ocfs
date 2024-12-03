@@ -15,7 +15,7 @@
     "license": "ISC",
     "scripts": {
         "stage": "bun src/index.ts --stage",
-        "dist": "bun src/index.ts --dist"
+        "deploy": "bun src/index.ts --deploy"
     },
     "type": "module",
     "main": "src/index.ts",
