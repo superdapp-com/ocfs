@@ -9,7 +9,7 @@ switch (process.argv[2]) {
         buildProtocolList();
         buildTokenList();
         break;
-    case "--dist":
+    case "--deploy":
         const distBasePath = "./dist";
         fs.mkdirSync(distBasePath, { recursive: true });
         buildMetrics(distBasePath);
