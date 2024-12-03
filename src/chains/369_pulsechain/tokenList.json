@@ -1,6 +1,6 @@
 {
   "name": "superdapp-tokens-369_pulsechain",
-  "timestamp": 1732553772420,
+  "timestamp": 1733262486834,
   "version": {
     "major": 1,
     "minor": 0,
@@ -236,6 +236,13 @@
       "name": "9INCH",
       "symbol": "9INCH",
       "decimals": 18
+    },
+    {
+      "chainId": 369,
+      "address": "0xA0b73E1Ff0B80914AB6fe0444E65848C4C34450b",
+      "name": "CRO",
+      "symbol": "CRO",
+      "decimals": 8
     }
   ],
   "tokenMap": {
@@ -462,6 +469,13 @@
       "name": "9INCH",
       "symbol": "9INCH",
       "decimals": 18
+    },
+    "369_0xA0b73E1Ff0B80914AB6fe0444E65848C4C34450b": {
+      "chainId": 369,
+      "address": "0xA0b73E1Ff0B80914AB6fe0444E65848C4C34450b",
+      "name": "CRO",
+      "symbol": "CRO",
+      "decimals": 8
     }
   }
 }
