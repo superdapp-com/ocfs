@@ -1,6 +1,6 @@
 {
   "name": "superdapp-tokens-1_ethereum",
-  "timestamp": 1733262486123,
+  "timestamp": 1733373431036,
   "version": {
     "major": 1,
     "minor": 0,
@@ -355,6 +355,13 @@
       "name": "CRO",
       "symbol": "CRO",
       "decimals": 8
+    },
+    {
+      "chainId": 1,
+      "address": "0xfc4913214444aF5c715cc9F7b52655e788A569ed",
+      "name": "Icosa",
+      "symbol": "ICSA",
+      "decimals": 9
     }
   ],
   "tokenMap": {
@@ -700,6 +707,13 @@
       "name": "CRO",
       "symbol": "CRO",
       "decimals": 8
+    },
+    "1_0xfc4913214444aF5c715cc9F7b52655e788A569ed": {
+      "chainId": 1,
+      "address": "0xfc4913214444aF5c715cc9F7b52655e788A569ed",
+      "name": "Icosa",
+      "symbol": "ICSA",
+      "decimals": 9
     }
   }
 }
