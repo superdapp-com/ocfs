@@ -39,7 +39,7 @@ jobs:
             acl private
 
       - name: Build dist/ with Bun
-        run: bun deploy
+        run: bun run deploy
 
       - name: Deploy to Cloudflare R2
         run: rclone copy dist/ r2ocfs:ocfs
