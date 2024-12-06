@@ -1,6 +1,6 @@
 {
   "name": "superdapp-tokens-1_ethereum",
-  "timestamp": 1733373431036,
+  "timestamp": 1733452888338,
   "version": {
     "major": 1,
     "minor": 0,
@@ -362,6 +362,13 @@
       "name": "Icosa",
       "symbol": "ICSA",
       "decimals": 9
+    },
+    {
+      "chainId": 1,
+      "address": "0xfee293840D23B0B2De8C55e1Cf7A9F01C157767c",
+      "name": "DEGEN",
+      "symbol": "DEGEN",
+      "decimals": 18
     }
   ],
   "tokenMap": {
@@ -714,6 +721,13 @@
       "name": "Icosa",
       "symbol": "ICSA",
       "decimals": 9
+    },
+    "1_0xfee293840D23B0B2De8C55e1Cf7A9F01C157767c": {
+      "chainId": 1,
+      "address": "0xfee293840D23B0B2De8C55e1Cf7A9F01C157767c",
+      "name": "DEGEN",
+      "symbol": "DEGEN",
+      "decimals": 18
     }
   }
 }
