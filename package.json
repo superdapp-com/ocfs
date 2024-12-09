@@ -15,7 +15,8 @@
     "license": "ISC",
     "scripts": {
         "stage": "bun src/index.ts --stage",
-        "deploy": "bun src/index.ts --deploy"
+        "deploy": "bun src/index.ts --deploy",
+        "add-rpc": "bun run scripts/add-rpc.ts"
     },
     "type": "module",
     "main": "src/index.ts",

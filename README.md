@@ -1,8 +1,10 @@
-# ocfs
+# OCFS (Off-Chain File Storage)
 
-off-chain cdn to store protocol and token data
+Off-chain file storage system for blockchain data.
 
-## Getting started
+## Setup
+
+1. Install dependencies:
 
 ```
 git clone https://github.com/superdapp-com/ocfs.git
@@ -10,12 +12,35 @@ cd ocfs
 bun install
 ```
 
+## Adding a New Chain
+
+To add support for a new blockchain network:
+
+```bash
+bun run add-rpc <chain_id> <rpc_url>
+
+# Example:
+bun run add-rpc 137 https://polygon-rpc.com
+```
+
+After running the script, complete these steps:
+1. Add the chain to the `chains` array in `src/scripts/globals.ts`
+2. Add the RPC URL to your `.env` file
+3. Add the RPC URL to your GitHub repository secrets
+
+## Usage
+
 *Stage Updates*
 
 ```
 bun stage
 ```
 
+*Deploy Updates*
+
+```
+bun deploy
+```
 
 ### Source Directory Structure (src/)
 
@@ -56,3 +81,16 @@ dist/
     │   └── [token_address].json
     └── [token_address].svg
 ```
+
+## Environment Variables
+
+Create a `.env` file with your RPC endpoints:
+
+```
+RPC_HTTP_1=<ethereum_rpc_url>
+RPC_HTTP_137=<polygon_rpc_url>
+RPC_HTTP_369=<pulsechain_rpc_url>
+RPC_HTTP_8453=<base_rpc_url>
+```
+
+For deployment, you'll also need Cloudflare R2 credentials in your GitHub repository secrets.
