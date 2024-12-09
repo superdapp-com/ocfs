@@ -1,6 +1,6 @@
 {
   "name": "superdapp-tokens-369_pulsechain",
-  "timestamp": 1733706930619,
+  "timestamp": 1733720585638,
   "version": {
     "major": 1,
     "minor": 0,
@@ -243,6 +243,13 @@
       "name": "CRO",
       "symbol": "CRO",
       "decimals": 8
+    },
+    {
+      "chainId": 369,
+      "address": "0x0567CA0dE35606E9C260CC2358404B11DE21DB44",
+      "name": "HELGO",
+      "symbol": "HELGO",
+      "decimals": 18
     }
   ],
   "tokenMap": {
@@ -476,6 +483,13 @@
       "name": "CRO",
       "symbol": "CRO",
       "decimals": 8
+    },
+    "369_0x0567CA0dE35606E9C260CC2358404B11DE21DB44": {
+      "chainId": 369,
+      "address": "0x0567CA0dE35606E9C260CC2358404B11DE21DB44",
+      "name": "HELGO",
+      "symbol": "HELGO",
+      "decimals": 18
     }
   }
 }
