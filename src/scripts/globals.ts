@@ -1,10 +1,11 @@
 import { Chain, http, HttpTransport } from "viem";
-import { mainnet, pulsechain, base, bsc, degen, sepolia, holesky } from "viem/chains";
+import { mainnet, pulsechain, base, polygon } from "viem/chains";
 import { env } from "../env.js";
 
-export const chains = [mainnet, pulsechain, base];
+export const chains = [mainnet, polygon, pulsechain, base];
 export const transportMap: Record<number, HttpTransport> = {
     1: http(env.RPC_HTTP_1),
+    137: http(env.RPC_HTTP_137),
     369: http(env.RPC_HTTP_369),
     8453: http(env.RPC_HTTP_8453),
 }

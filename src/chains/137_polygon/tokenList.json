@@ -1,0 +1,89 @@
+{
+  "name": "superdapp-tokens-137_polygon",
+  "timestamp": 1733706930033,
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  },
+  "keywords": [
+    "superdapp.com",
+    "token",
+    "list",
+    "137_polygon"
+  ],
+  "tokens": [
+    {
+      "chainId": 137,
+      "address": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+      "name": "(PoS) Tether USD",
+      "symbol": "USDT",
+      "decimals": 6
+    },
+    {
+      "chainId": 137,
+      "address": "0xC3e8abfA04B0EC442c2A4D65699a40F7FcEd8055",
+      "name": "FENIX",
+      "symbol": "mFENIX",
+      "decimals": 18
+    },
+    {
+      "chainId": 137,
+      "address": "0x2AB0e9e4eE70FFf1fB9D67031E44F6410170d00e",
+      "name": "XEN Crypto",
+      "symbol": "mXEN",
+      "decimals": 18
+    },
+    {
+      "chainId": 137,
+      "address": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+      "name": "Wrapped Ether",
+      "symbol": "WETH",
+      "decimals": 18
+    },
+    {
+      "chainId": 137,
+      "address": "0x47DD60FA40A050c0677dE19921Eb4cc512947729",
+      "name": "DBXen Token on Polygon",
+      "symbol": "mDXN",
+      "decimals": 18
+    }
+  ],
+  "tokenMap": {
+    "137_0xc2132D05D31c914a87C6611C10748AEb04B58e8F": {
+      "chainId": 137,
+      "address": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+      "name": "(PoS) Tether USD",
+      "symbol": "USDT",
+      "decimals": 6
+    },
+    "137_0xC3e8abfA04B0EC442c2A4D65699a40F7FcEd8055": {
+      "chainId": 137,
+      "address": "0xC3e8abfA04B0EC442c2A4D65699a40F7FcEd8055",
+      "name": "FENIX",
+      "symbol": "mFENIX",
+      "decimals": 18
+    },
+    "137_0x2AB0e9e4eE70FFf1fB9D67031E44F6410170d00e": {
+      "chainId": 137,
+      "address": "0x2AB0e9e4eE70FFf1fB9D67031E44F6410170d00e",
+      "name": "XEN Crypto",
+      "symbol": "mXEN",
+      "decimals": 18
+    },
+    "137_0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619": {
+      "chainId": 137,
+      "address": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+      "name": "Wrapped Ether",
+      "symbol": "WETH",
+      "decimals": 18
+    },
+    "137_0x47DD60FA40A050c0677dE19921Eb4cc512947729": {
+      "chainId": 137,
+      "address": "0x47DD60FA40A050c0677dE19921Eb4cc512947729",
+      "name": "DBXen Token on Polygon",
+      "symbol": "mDXN",
+      "decimals": 18
+    }
+  }
+}
