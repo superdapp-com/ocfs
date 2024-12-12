@@ -1,6 +1,6 @@
 {
   "name": "superdapp-protocols-369_pulsechain",
-  "timestamp": 1733768735280,
+  "timestamp": 1733964255135,
   "version": {
     "major": 1,
     "minor": 0,
@@ -30,6 +30,10 @@
       "address": "0x6d38Ab9f5b5Edfb22e57a44c3c747f9584de1f1a"
     },
     {
+      "name": "hex-stake-instance",
+      "address": "0x8BD3d1472A656e312E94fB1BbdD599B8C51D18e3"
+    },
+    {
       "name": "maximus-team",
       "address": "0xB7c9E99Da8A857cE576A830A9c19312114d9dE02"
     },
@@ -55,6 +59,7 @@
     "dbxen-views": "0x9B560853787B0fB6126F7ad53b63313D2Aa625Db",
     "xenft": "0xfEa13BF27493f04DEac94f67a46441a68EfD32F8",
     "dbxen": "0x6d38Ab9f5b5Edfb22e57a44c3c747f9584de1f1a",
+    "hex-stake-instance": "0x8BD3d1472A656e312E94fB1BbdD599B8C51D18e3",
     "maximus-team": "0xB7c9E99Da8A857cE576A830A9c19312114d9dE02",
     "coin-tool": "0x0de8bf93da2f7eecb3d9169422413a9bef4ef628",
     "fenix": "0xC3e8abfA04B0EC442c2A4D65699a40F7FcEd8055",
