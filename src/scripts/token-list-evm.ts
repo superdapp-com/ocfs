@@ -61,17 +61,16 @@ const getTokenList = async (chain: Chain) => {
                     symbol: hexToString(trim(result[1] as `0x${string}`, { dir: "right" })),
                     decimals: Number(result[2]),
                 }
-
-                console.log(token);
                 return token;
             } else {    
-                return {
+                const token = {
                     chainId: chain.id,
                     address: getAddress(tokenAddress),
                     name: result[0],
                     symbol: result[1],
                     decimals: Number(result[2]),
                 }
+                return token;
             }
         })
     });

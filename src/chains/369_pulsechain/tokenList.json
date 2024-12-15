@@ -1,6 +1,6 @@
 {
   "name": "superdapp-tokens-369_pulsechain",
-  "timestamp": 1734227430727,
+  "timestamp": 1734229775179,
   "version": {
     "major": 1,
     "minor": 0,
@@ -250,6 +250,13 @@
       "name": "HELGO",
       "symbol": "HELGO",
       "decimals": 18
+    },
+    {
+      "chainId": 369,
+      "address": "0x94534EeEe131840b1c0F61847c572228bdfDDE93",
+      "name": "The Grays Currency",
+      "symbol": "pTGC",
+      "decimals": 18
     }
   ],
   "tokenMap": {
@@ -489,6 +496,13 @@
       "address": "0x0567CA0dE35606E9C260CC2358404B11DE21DB44",
       "name": "HELGO",
       "symbol": "HELGO",
+      "decimals": 18
+    },
+    "369_0x94534EeEe131840b1c0F61847c572228bdfDDE93": {
+      "chainId": 369,
+      "address": "0x94534EeEe131840b1c0F61847c572228bdfDDE93",
+      "name": "The Grays Currency",
+      "symbol": "pTGC",
       "decimals": 18
     }
   }
