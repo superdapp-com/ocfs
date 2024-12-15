@@ -1,7 +1,8 @@
 import * as fs from 'fs';
 import { Chain, createPublicClient, erc20Abi, getAddress} from "viem";
 import { chains, transportMap, getChainFolder, getTokenNameSymbol } from "./globals.js";
-
+import hexNameSymbolAbi from "./custom-erc20-abis/hex-name-symbol-abi.json"
+import { hexToString, trim } from 'viem/utils';
 
 export const buildTokenList = async () => {
     await Promise.all(chains.map(async (chain) => {
@@ -9,6 +10,7 @@ export const buildTokenList = async () => {
     }));
 }
 
+const hexNameSymbolAddresses = ["0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2", "0x89d24A6b4CcB1B6fAA2625fE562bDD9a23260359"]
 const getTokenList = async (chain: Chain) => {
 
     const chainFolder = getChainFolder(chain);
@@ -26,29 +28,50 @@ const getTokenList = async (chain: Chain) => {
     const tokenAddresses = JSON.parse(addressList.toString());
 
     const tokensRequests = tokenAddresses.flatMap(async (tokenAddress: string) => {
+        let abi = erc20Abi
+
+        const isHexNameSymbol = hexNameSymbolAddresses.includes(tokenAddress)
+        if (isHexNameSymbol) {
+            abi = hexNameSymbolAbi as any;
+        }
+
         return await publicClient.multicall({
             contracts: [{
                 address: getAddress(tokenAddress),
-                abi: erc20Abi,
+                abi: abi,
                 functionName: "name",
             }, {
                 address: getAddress(tokenAddress),
-                abi: erc20Abi,
+                abi: abi,
                 functionName: "symbol",
             }, {
                 address: getAddress(tokenAddress),
-                abi: erc20Abi,
+                abi: abi,
                 functionName: "decimals",
             }],
             allowFailure: false
         })
         .then((result) => {
-            return {
-                chainId: chain.id,
-                address: getAddress(tokenAddress),
-                name: result[0],
-                symbol: result[1],
-                decimals: result[2],
+
+            if (isHexNameSymbol) {
+                const token = {
+                    chainId: chain.id,
+                    address: getAddress(tokenAddress),
+                    name: hexToString(trim(result[0] as `0x${string}`, { dir: "right" })),
+                    symbol: hexToString(trim(result[1] as `0x${string}`, { dir: "right" })),
+                    decimals: Number(result[2]),
+                }
+
+                console.log(token);
+                return token;
+            } else {    
+                return {
+                    chainId: chain.id,
+                    address: getAddress(tokenAddress),
+                    name: result[0],
+                    symbol: result[1],
+                    decimals: Number(result[2]),
+                }
             }
         })
     });
