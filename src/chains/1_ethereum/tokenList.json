@@ -1,6 +1,6 @@
 {
   "name": "superdapp-tokens-1_ethereum",
-  "timestamp": 1733964255297,
+  "timestamp": 1734227430168,
   "version": {
     "major": 1,
     "minor": 0,
@@ -365,6 +365,13 @@
     },
     {
       "chainId": 1,
+      "address": "0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2",
+      "name": "Maker",
+      "symbol": "MKR",
+      "decimals": 18
+    },
+    {
+      "chainId": 1,
       "address": "0xfee293840D23B0B2De8C55e1Cf7A9F01C157767c",
       "name": "DEGEN",
       "symbol": "DEGEN",
@@ -721,6 +728,13 @@
       "name": "Icosa",
       "symbol": "ICSA",
       "decimals": 9
+    },
+    "1_0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2": {
+      "chainId": 1,
+      "address": "0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2",
+      "name": "Maker",
+      "symbol": "MKR",
+      "decimals": 18
     },
     "1_0xfee293840D23B0B2De8C55e1Cf7A9F01C157767c": {
       "chainId": 1,
