@@ -9,6 +9,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     env:
+      RPC_HTTP_101: ${{ secrets.RPC_HTTP_101 }}
       RPC_HTTP_1: ${{ secrets.RPC_HTTP_1 }}
       RPC_HTTP_137: ${{ secrets.RPC_HTTP_137 }}
       RPC_HTTP_369: ${{ secrets.RPC_HTTP_369 }}
