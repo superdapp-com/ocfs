@@ -1,0 +1,75 @@
+{
+  "name": "superdapp-tokens-solana",
+  "timestamp": 1734307740950,
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  },
+  "keywords": [
+    "superdapp.com",
+    "token",
+    "list",
+    "solana"
+  ],
+  "tokens": [
+    {
+      "chainId": 101,
+      "address": "So11111111111111111111111111111111111111112",
+      "name": "Wrapped SOL",
+      "symbol": "SOL",
+      "decimals": 9
+    },
+    {
+      "chainId": 101,
+      "address": "4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R",
+      "name": "Raydium",
+      "symbol": "RAY",
+      "decimals": 6
+    },
+    {
+      "chainId": 101,
+      "address": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 6
+    },
+    {
+      "chainId": 101,
+      "address": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+      "name": "USDT",
+      "symbol": "USDT",
+      "decimals": 6
+    }
+  ],
+  "tokenMap": {
+    "So11111111111111111111111111111111111111112": {
+      "chainId": 101,
+      "address": "So11111111111111111111111111111111111111112",
+      "name": "Wrapped SOL",
+      "symbol": "SOL",
+      "decimals": 9
+    },
+    "4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R": {
+      "chainId": 101,
+      "address": "4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R",
+      "name": "Raydium",
+      "symbol": "RAY",
+      "decimals": 6
+    },
+    "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": {
+      "chainId": 101,
+      "address": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 6
+    },
+    "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB": {
+      "chainId": 101,
+      "address": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+      "name": "USDT",
+      "symbol": "USDT",
+      "decimals": 6
+    }
+  }
+}

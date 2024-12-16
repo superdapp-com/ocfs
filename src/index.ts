@@ -1,13 +1,11 @@
 import * as fs from "fs";
-import { buildProtocolList } from "./scripts/protocol-list-evm.js";
-import { buildTokenList } from "./scripts/token-list-evm.js";
 import { dist } from "./scripts/dist.js";
 import { buildMetrics } from "./scripts/metrics.js";
+import { buildLists } from "./scripts/list/index.js";
 
 switch (process.argv[2]) {
     case "--stage":
-        buildProtocolList();
-        buildTokenList();
+        buildLists();
         break;
     case "--deploy":
         const distBasePath = "./dist";

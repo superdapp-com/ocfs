@@ -7,6 +7,7 @@ export const env = createEnv({
     RPC_HTTP_137: z.string(),
     RPC_HTTP_369: z.string(),
     RPC_HTTP_8453: z.string(),
+    RPC_HTTP_101: z.string(),
   },
   client: {
     // NEXT_PUBLIC_CLIENTVAR: z.string(),
@@ -16,5 +17,6 @@ export const env = createEnv({
     RPC_HTTP_137: process.env.RPC_HTTP_137,
     RPC_HTTP_369: process.env.RPC_HTTP_369,
     RPC_HTTP_8453: process.env.RPC_HTTP_8453,
+    RPC_HTTP_101: process.env.RPC_HTTP_101,
   },
 });
