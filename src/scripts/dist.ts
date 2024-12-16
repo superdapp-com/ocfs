@@ -1,12 +1,12 @@
 import * as fs from "fs";
-import { chains, getChainFolder, getTokenNameSymbol } from "./globals.js";
+import { allChains, getChainFolder, getTokenNameSymbol } from "./globals.js";
 
 
 export const dist = (distBasePath: string) => {
     const inBasePath = "./src/chains";
     const sharedBasePath = "./src/shared";
     
-    for (const chain of chains) {
+    for (const chain of allChains) {
         const chainFolder = getChainFolder(chain);
         fs.mkdirSync(`${distBasePath}/${chain.id}`, { recursive: true });
 
@@ -17,8 +17,6 @@ export const dist = (distBasePath: string) => {
         const tokenListPath = `${inChainBasePath}/tokenList.json`;
         const protocolListPath = `${inChainBasePath}/protocolList.json`;
         fs.copyFileSync(chainLogoPath, `${distBasePath}/${chain.id}.svg`);
-        console.log(`${distBasePath}/${chain.id}.svg`);
-        console.log(`${distBasePath}/${chain.id}/null.svg`);
         if (!fs.existsSync(`${distBasePath}/${chain.id}/null.svg`)) {
             fs.linkSync(`${distBasePath}/${chain.id}.svg`, `${distBasePath}/${chain.id}/null.svg`);
         }
@@ -42,7 +40,9 @@ export const dist = (distBasePath: string) => {
             const tokenNameSymbol = getTokenNameSymbol(token);
             const tokenName = tokenNameSymbol.split("_")[0];
             fs.copyFileSync(`${sharedBasePath}/images/${tokenName}/image.svg`, `${outChainBasePath}/${token.address}.svg`);
-            fs.copyFileSync(`${inChainBasePath}/tokens/${tokenNameSymbol}/${token.address}/erc20.json`, `${outChainBasePath}/erc20/${token.address}.json`);
+            if (fs.existsSync(`${inChainBasePath}/tokens/${tokenNameSymbol}/${token.address}/erc20.json`)) {
+                fs.copyFileSync(`${inChainBasePath}/tokens/${tokenNameSymbol}/${token.address}/erc20.json`, `${outChainBasePath}/erc20/${token.address}.json`);
+            }
             fs.writeFileSync(`${outChainBasePath}/address/token/${tokenName}.json`, JSON.stringify({ address: token.address }, null, 2));
         }
     }

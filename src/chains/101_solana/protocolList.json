@@ -1,0 +1,17 @@
+{
+  "name": "superdapp-protocols-101_solana",
+  "timestamp": 1734307740316,
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  },
+  "keywords": [
+    "superdapp.com",
+    "token",
+    "list",
+    "101_solana"
+  ],
+  "protocols": [],
+  "protocolMap": {}
+}

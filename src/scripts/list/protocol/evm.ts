@@ -1,12 +1,12 @@
 import * as fs from 'fs';
 import { Chain, getAddress } from "viem";
-import { chains, getChainFolder } from "./globals.js";
+import { evmChains, getChainFolder } from "../../globals.js";
 
-export const buildProtocolList = async () => {
+export const evmProtocolList = async () => {
     const inProtocolNamePath = `./src/shared/protocols/`
     const protocols = fs.readdirSync(inProtocolNamePath);
     
-    await Promise.all(chains.map(async (chain) => {
+    await Promise.all(evmChains.map(async (chain) => {
         await getProtocolList(chain, protocols);
     }));
 }

@@ -1,8 +1,13 @@
 import { Chain, http, HttpTransport } from "viem";
 import { mainnet, pulsechain, base, polygon } from "viem/chains";
 import { env } from "../env.js";
+import { solana } from "../lib/solana.js";
 
-export const chains = [mainnet, polygon, pulsechain, base];
+
+export const evmChains = [mainnet, polygon, pulsechain, base];
+export const svmChains = [solana];
+export const allChains = [...evmChains, ...svmChains];
+
 export const transportMap: Record<number, HttpTransport> = {
     1: http(env.RPC_HTTP_1),
     137: http(env.RPC_HTTP_137),

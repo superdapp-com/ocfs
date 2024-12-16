@@ -1,8 +1,8 @@
 {
     "compilerOptions": {
-      "target": "es6",
+      "target": "ESNext",
       "lib": [
-        "es2019"
+        "ESNext"
       ],
       "module": "NodeNext",
       "outDir": "dist",
