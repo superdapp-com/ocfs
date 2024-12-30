@@ -7,12 +7,12 @@ import { svmTokenList } from "./token/svm.js";
 
 export const buildTokenList = async () => {
     evmTokenList();
-    svmTokenList();
+    // svmTokenList();
 }
 
 export const buildProtocolList = async () => {
     evmProtocolList();
-    svmProtocolList();
+    // svmProtocolList();
 }
 
 export const buildLists = async () => {

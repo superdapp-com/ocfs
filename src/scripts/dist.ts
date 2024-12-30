@@ -31,6 +31,11 @@ export const dist = (distBasePath: string) => {
         const protocolList = JSON.parse(fs.readFileSync(protocolListPath, "utf8"));
         for (const protocol of protocolList.protocols) {
             const { name, address } = protocol;
+            if (fs.existsSync(`${sharedBasePath}/images/${name}/image.svg`)) {
+                console.log("found protocol image", name);
+                fs.copyFileSync(`${sharedBasePath}/images/${name}/image.svg`, `${outChainBasePath}/${address}.svg`);
+            }
+
             fs.copyFileSync(`${sharedBasePath}/protocols/${name}/abi.json`, `${outChainBasePath}/abi/${name}_${address}.json`);
             fs.writeFileSync(`${outChainBasePath}/address/protocol/${name}.json`, JSON.stringify({ address }, null, 2));
         }
