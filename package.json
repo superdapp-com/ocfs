@@ -18,7 +18,7 @@
     "scripts": {
         "svm": "bun src/index.ts --svm",
         "stage": "bun src/index.ts --stage",
-        "deploy": "bun src/index.ts --deploy",
+        "deploy": "bun src/index.ts --deploy && ./src/scripts/svg-to-webp.sh",
         "add-rpc": "bun run src/scripts/add-rpc.ts"
     },
     "type": "module",
