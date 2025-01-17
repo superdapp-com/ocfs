@@ -63,18 +63,4 @@ export const dist = (distBasePath: string) => {
             }
         }
     }
-
-    // loop through all svgs in each chain folder and convert them to webp
-    for (const chain of allChains) {
-        const outChainBasePath = `${distBasePath}/${chain.id}`;
-        const chainStaticPath = `${staticBasePath}/${chain.id}`;
-        const files = fs.readdirSync(chainStaticPath);
-        for (const file of files) {
-            if (file.endsWith(".svg")) {
-                const sourcePath = `${chainStaticPath}/${file}`;
-                const destPath = `${outChainBasePath}/${file.replace(".svg", ".webp")}`;
-                fs.copyFileSync(sourcePath, destPath);
-            }
-        }
-    }
 }
