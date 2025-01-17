@@ -31,6 +31,11 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y imagemagick
+          
+      - name: Install Inkscape
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y inkscape
 
       - name: Install rclone
         run: |
