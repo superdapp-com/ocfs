@@ -5,12 +5,12 @@ import { allChains, getChainFolder, getTokenNameSymbol } from "./globals.js";
 export const dist = (distBasePath: string) => {
     const inBasePath = "./src/chains";
     const sharedBasePath = "./src/shared";
-    
+    const staticBasePath = "./src/static";
+
     for (const chain of allChains) {
         const chainFolder = getChainFolder(chain);
         fs.mkdirSync(`${distBasePath}/${chain.id}`, { recursive: true });
 
-        const staticBasePath = "./src/static";
         const inChainBasePath = `${inBasePath}/${chainFolder}`;
         const outChainBasePath = `${distBasePath}/${chain.id}`;
 
@@ -64,4 +64,17 @@ export const dist = (distBasePath: string) => {
         }
     }
 
+    // loop through all svgs in each chain folder and convert them to webp
+    for (const chain of allChains) {
+        const outChainBasePath = `${distBasePath}/${chain.id}`;
+        const chainStaticPath = `${staticBasePath}/${chain.id}`;
+        const files = fs.readdirSync(chainStaticPath);
+        for (const file of files) {
+            if (file.endsWith(".svg")) {
+                const sourcePath = `${chainStaticPath}/${file}`;
+                const destPath = `${outChainBasePath}/${file.replace(".svg", ".webp")}`;
+                fs.copyFileSync(sourcePath, destPath);
+            }
+        }
+    }
 }
