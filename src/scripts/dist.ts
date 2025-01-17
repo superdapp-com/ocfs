@@ -10,6 +10,7 @@ export const dist = (distBasePath: string) => {
         const chainFolder = getChainFolder(chain);
         fs.mkdirSync(`${distBasePath}/${chain.id}`, { recursive: true });
 
+        const staticBasePath = "./src/static";
         const inChainBasePath = `${inBasePath}/${chainFolder}`;
         const outChainBasePath = `${distBasePath}/${chain.id}`;
 
@@ -49,6 +50,17 @@ export const dist = (distBasePath: string) => {
                 fs.copyFileSync(`${inChainBasePath}/tokens/${tokenNameSymbol}/${token.address}/erc20.json`, `${outChainBasePath}/erc20/${token.address}.json`);
             }
             fs.writeFileSync(`${outChainBasePath}/address/token/${tokenName}.json`, JSON.stringify({ address: token.address }, null, 2));
+        }
+
+        // Copy chain-specific static files if they exist
+        const chainStaticPath = `${staticBasePath}/${chain.id}`;
+        if (fs.existsSync(chainStaticPath)) {
+            const files = fs.readdirSync(chainStaticPath);
+            for (const file of files) {
+                const sourcePath = `${chainStaticPath}/${file}`;
+                const destPath = `${outChainBasePath}/${file}`;
+                fs.copyFileSync(sourcePath, destPath);
+            }
         }
     }
 
