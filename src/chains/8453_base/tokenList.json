@@ -1,6 +1,6 @@
 {
   "name": "superdapp-tokens-8453_base",
-  "timestamp": 1737067743701,
+  "timestamp": 1740290152352,
   "version": {
     "major": 1,
     "minor": 0,
@@ -89,6 +89,34 @@
       "name": "Super Anon",
       "symbol": "ANON",
       "decimals": 18
+    },
+    {
+      "chainId": 8453,
+      "address": "0xBAa5CC21fd487B8Fcc2F632f3F4E8D37262a0842",
+      "name": "Morpho Token",
+      "symbol": "MORPHO",
+      "decimals": 18
+    },
+    {
+      "chainId": 8453,
+      "address": "0x20Fd4C5396F7D9686f9997e0F10991957f7112fc",
+      "name": "redacted gdupi",
+      "symbol": "GDUPI",
+      "decimals": 18
+    },
+    {
+      "chainId": 8453,
+      "address": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
+      "name": "Coinbase Wrapped BTC",
+      "symbol": "cbBTC",
+      "decimals": 8
+    },
+    {
+      "chainId": 8453,
+      "address": "0x1bc0c42215582d5A085795f4baDbaC3ff36d1Bcb",
+      "name": "tokenbot",
+      "symbol": "CLANKER",
+      "decimals": 18
     }
   ],
   "tokenMap": {
@@ -167,6 +195,34 @@
       "address": "0x0Db510e79909666d6dEc7f5e49370838c16D950f",
       "name": "Super Anon",
       "symbol": "ANON",
+      "decimals": 18
+    },
+    "8453_0xBAa5CC21fd487B8Fcc2F632f3F4E8D37262a0842": {
+      "chainId": 8453,
+      "address": "0xBAa5CC21fd487B8Fcc2F632f3F4E8D37262a0842",
+      "name": "Morpho Token",
+      "symbol": "MORPHO",
+      "decimals": 18
+    },
+    "8453_0x20Fd4C5396F7D9686f9997e0F10991957f7112fc": {
+      "chainId": 8453,
+      "address": "0x20Fd4C5396F7D9686f9997e0F10991957f7112fc",
+      "name": "redacted gdupi",
+      "symbol": "GDUPI",
+      "decimals": 18
+    },
+    "8453_0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf": {
+      "chainId": 8453,
+      "address": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
+      "name": "Coinbase Wrapped BTC",
+      "symbol": "cbBTC",
+      "decimals": 8
+    },
+    "8453_0x1bc0c42215582d5A085795f4baDbaC3ff36d1Bcb": {
+      "chainId": 8453,
+      "address": "0x1bc0c42215582d5A085795f4baDbaC3ff36d1Bcb",
+      "name": "tokenbot",
+      "symbol": "CLANKER",
       "decimals": 18
     }
   }
