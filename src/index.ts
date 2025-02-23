@@ -9,7 +9,9 @@ switch (process.argv[2]) {
         break;
     case "--deploy":
         const distBasePath = "./dist";
-        fs.rmdirSync(distBasePath, { recursive: true });
+        if (fs.existsSync(distBasePath)) {
+            fs.rmdirSync(distBasePath, { recursive: true });
+        }
         fs.mkdirSync(distBasePath, { recursive: true });
         buildMetrics(distBasePath);
         dist(distBasePath);
