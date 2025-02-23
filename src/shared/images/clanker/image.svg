@@ -1,14 +1,16 @@
 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_61_305)">
-<path d="M40 20C40 8.9543 31.0457 0 20 0C8.9543 0 0 8.9543 0 20C0 31.0457 8.9543 40 20 40C31.0457 40 40 31.0457 40 20Z" fill="#0847F7"/>
+<g clip-path="url(#clip0_62_359)">
+<path d="M20 40C31.0457 40 40 31.0457 40 20C40 8.95431 31.0457 0 20 0C8.95431 0 0 8.95431 0 20C0 31.0457 8.95431 40 20 40Z" fill="#17101F"/>
 <path d="M39.875 20C39.875 9.02334 30.9767 0.125 20 0.125C9.02334 0.125 0.125 9.02334 0.125 20C0.125 30.9767 9.02334 39.875 20 39.875C30.9767 39.875 39.875 30.9767 39.875 20Z" stroke="black" stroke-opacity="0.1" stroke-width="0.25"/>
-<path d="M20 5L7 12.4708V27.4124L20 34.8832L33 27.4124V12.4708L20 5ZM27.4925 24.246L20.0024 28.5503L12.5122 24.246V15.6373L20.0024 11.3329L27.4925 15.6373V24.246Z" fill="white"/>
+<path d="M27 9C27 7.34315 28.3431 6 30 6V6C31.6569 6 33 7.34315 33 9V31C33 32.6569 31.6569 34 30 34V34C28.3431 34 27 32.6569 27 31V9Z" fill="#7C65C1"/>
+<path d="M17 19C17 17.3431 18.3431 16 20 16V16C21.6569 16 23 17.3431 23 19V31C23 32.6569 21.6569 34 20 34V34C18.3431 34 17 32.6569 17 31V19Z" fill="#7C65C1"/>
+<path d="M7 29C7 27.3431 8.34315 26 10 26V26C11.6569 26 13 27.3431 13 29V31C13 32.6569 11.6569 34 10 34V34C8.34315 34 7 32.6569 7 31V29Z" fill="#7C65C1"/>
 <g style="mix-blend-mode:soft-light" opacity="0.25">
-<path d="M40 20C40 8.9543 31.0457 0 20 0C8.9543 0 0 8.9543 0 20C0 31.0457 8.9543 40 20 40C31.0457 40 40 31.0457 40 20Z" fill="url(#paint0_linear_61_305)"/>
+<path d="M40 20C40 8.9543 31.0457 0 20 0C8.9543 0 0 8.9543 0 20C0 31.0457 8.9543 40 20 40C31.0457 40 40 31.0457 40 20Z" fill="url(#paint0_linear_62_359)"/>
 </g>
 </g>
 <defs>
-<linearGradient id="paint0_linear_61_305" x1="20" y1="0" x2="20" y2="40" gradientUnits="userSpaceOnUse">
+<linearGradient id="paint0_linear_62_359" x1="20" y1="0" x2="20" y2="40" gradientUnits="userSpaceOnUse">
 <stop stop-color="white"/>
 <stop offset="0.0666667" stop-color="#FDFDFD"/>
 <stop offset="0.133333" stop-color="#F6F6F6"/>
@@ -26,7 +28,7 @@
 <stop offset="0.933333" stop-color="#020202"/>
 <stop offset="1"/>
 </linearGradient>
-<clipPath id="clip0_61_305">
+<clipPath id="clip0_62_359">
 <rect width="40" height="40" fill="white"/>
 </clipPath>
 </defs>
