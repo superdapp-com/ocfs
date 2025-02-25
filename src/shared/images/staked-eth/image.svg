@@ -1,7 +1,6 @@
 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0_61_133)">
-<path d="M40 20C40 8.9543 31.0457 0 20 0C8.9543 0 0 8.9543 0 20C0 31.0457 8.9543 40 20 40C31.0457 40 40 31.0457 40 20Z" fill="#F7BD00"/>
-<path d="M39.875 20C39.875 9.02334 30.9767 0.125 20 0.125C9.02334 0.125 0.125 9.02334 0.125 20C0.125 30.9767 9.02334 39.875 20 39.875C30.9767 39.875 39.875 30.9767 39.875 20Z" stroke="black" stroke-opacity="0.1" stroke-width="0.25"/>
+<rect width="40" height="40" fill="#F7BD00"/>
 <g clip-path="url(#clip1_61_133)">
 <path d="M20.6729 34L9.08787 28.085L20.6729 22.4033V34Z" fill="url(#paint0_linear_61_133)"/>
 <path d="M20.6729 34L9.08787 28.0967L20.6845 22.4033V34H20.6729Z" stroke="#846EBE" stroke-width="0.0291667" stroke-miterlimit="10"/>
@@ -53,7 +52,7 @@
 <path d="M20.6727 22.4033V6L27.5327 19.0667L20.6727 22.3917V22.4033Z" stroke="#B9A0FF" stroke-width="0.0291667" stroke-miterlimit="10"/>
 </g>
 <g style="mix-blend-mode:soft-light" opacity="0.25">
-<path d="M40 20C40 8.9543 31.0457 0 20 0C8.9543 0 0 8.9543 0 20C0 31.0457 8.9543 40 20 40C31.0457 40 40 31.0457 40 20Z" fill="url(#paint28_linear_61_133)"/>
+<rect width="40" height="40" fill="url(#paint28_linear_61_133)"/>
 </g>
 </g>
 <defs>
