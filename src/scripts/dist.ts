@@ -33,6 +33,7 @@ export const dist = (distBasePath: string) => {
         for (const protocol of protocolList.protocols) {
             const { name, address } = protocol;
             if (fs.existsSync(`${sharedBasePath}/images/${name}/image.svg`)) {
+                console.log("FROM:", `${sharedBasePath}/images/${name}/image.svg`, " TO: ", `${outChainBasePath}/${address}.svg`);
                 fs.copyFileSync(`${sharedBasePath}/images/${name}/image.svg`, `${outChainBasePath}/${address}.svg`);
             }
 
