@@ -4,23 +4,24 @@ import { evmChains, getChainFolder } from "../../globals.js";
 
 export const evmProtocolList = async () => {
     const inProtocolNamePath = `./src/shared/protocols/`
-    const protocols = fs.readdirSync(inProtocolNamePath);
+    const protocolNames = fs.readdirSync(inProtocolNamePath);
     
     await Promise.all(evmChains.map(async (chain) => {
-        await getProtocolList(chain, protocols);
+        await getProtocolList(chain, protocolNames);
     }));
 }
 
-const getProtocolList = async (chain: Chain, protocols: string[]) => {
+const getProtocolList = async (chain: Chain, protocolNames: string[]) => {
 
     const chainFolder = getChainFolder(chain);
 
     const outPath = `./src/chains/${chainFolder}/protocolList.json`
 
-    const protocolData: Record<string, string> = {}
+    let protocols: { name: string, address: string }[] = []
+    let protocolMap: Record<string, any> = {}
 
-    protocols.forEach((protocol: string) => {
-        const inProtocolAddressPath = `./src/chains/${chainFolder}/protocols/${protocol}/`
+    protocolNames.forEach((protocolName: string) => {
+        const inProtocolAddressPath = `./src/chains/${chainFolder}/protocols/${protocolName}/`
         if (!fs.existsSync(inProtocolAddressPath)) {
             return;
         }
@@ -28,10 +29,31 @@ const getProtocolList = async (chain: Chain, protocols: string[]) => {
 
         protocolAddresses.forEach((protocolAddress) => {
             if (getAddress(protocolAddress)) {
-                protocolData[protocol] = protocolAddress;
+                const protocol = {
+                    name: protocolName,
+                    address: protocolAddress
+                }
+                protocols.push(protocol);
+                const key = `${chain.id}_${protocolAddress}`;
+                protocolMap[key] = protocol;
             }
         });
     });
+
+    // Object.entries(protocolData).map(([protocol, address]) => ({
+    //     name: protocol,
+    //     address
+    // })),
+
+    //     const tokenMap: Record<string, any> = {};
+
+    // tokens.forEach((token) => {
+    //     const tokenDataPath = `${outBasePath}/tokens/${getTokenNameSymbol(token)}/${token.address}/`
+    //     fs.mkdirSync(`${tokenDataPath}`, { recursive: true });
+    //     fs.writeFileSync(`${tokenDataPath}/erc20.json`, JSON.stringify(token, null, 2));
+    //     const key = `${token.chainId}_${token.address}`;
+    //     tokenMap[key] = token;
+    // });
 
     const protocolList = {
         name: `superdapp-protocols-${chainFolder}`,
@@ -42,11 +64,8 @@ const getProtocolList = async (chain: Chain, protocols: string[]) => {
           patch: 0,
         },
         keywords: ["superdapp.com", "token", "list", chainFolder],
-        protocols: Object.entries(protocolData).map(([protocol, address]) => ({
-            name: protocol,
-            address
-        })),
-        protocolMap: protocolData
+        protocols,
+        protocolMap
       };
 
     fs.writeFileSync(outPath, JSON.stringify(protocolList, null, 2));
