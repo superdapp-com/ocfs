@@ -1,6 +1,6 @@
 {
   "name": "superdapp-protocols-8453_base",
-  "timestamp": 1740549666773,
+  "timestamp": 1740551074104,
   "version": {
     "major": 1,
     "minor": 0,
@@ -71,59 +71,59 @@
     }
   ],
   "protocolMap": {
-    "8453_0x8C9037D1Ef5c6D1f6816278C7AAF5491d24CD527": {
+    "moxie": {
       "name": "moxie",
       "address": "0x8C9037D1Ef5c6D1f6816278C7AAF5491d24CD527"
     },
-    "8453_0x2d8A3C5677189723C4cB8873CfC9C8976FDF38Ac": {
+    "aave-v3-pool-data-provider": {
       "name": "aave-v3-pool-data-provider",
       "address": "0x2d8A3C5677189723C4cB8873CfC9C8976FDF38Ac"
     },
-    "8453_0xF3281221bA95af0C5BBcBd2474cE8C090233133b": {
+    "dbxen-views": {
       "name": "dbxen-views",
       "address": "0xF3281221bA95af0C5BBcBd2474cE8C090233133b"
     },
-    "8453_0x379002701BF6f2862e3dFdd1f96d3C5E1BF450B6": {
+    "xenft": {
       "name": "xenft",
       "address": "0x379002701BF6f2862e3dFdd1f96d3C5E1BF450B6"
     },
-    "8453_0xa8a30E0dafCA4156f28d96cCa5671a0eEcA5E407": {
+    "locked-degen": {
       "name": "locked-degen",
       "address": "0xa8a30E0dafCA4156f28d96cCa5671a0eEcA5E407"
     },
-    "8453_0x30782c020FE90614f08a863B41CbB07A2D2D94fF": {
+    "dbxen": {
       "name": "dbxen",
       "address": "0x30782c020FE90614f08a863B41CbB07A2D2D94fF"
     },
-    "8453_0x9Ec1C3DcF667f2035FB4CD2eB42A1566fd54d2B7": {
+    "coin-tool": {
       "name": "coin-tool",
       "address": "0x9Ec1C3DcF667f2035FB4CD2eB42A1566fd54d2B7"
     },
-    "8453_0x235CAD50d8a510Bc9081279996f01877827142D8": {
+    "moxie-pass": {
       "name": "moxie-pass",
       "address": "0x235CAD50d8a510Bc9081279996f01877827142D8"
     },
-    "8453_0x07FdE3eD7727c1D84171A6e5815964d50827CF69": {
+    "fenix": {
       "name": "fenix",
       "address": "0x07FdE3eD7727c1D84171A6e5815964d50827CF69"
     },
-    "8453_0xA238Dd80C259a72e81d7e4664a9801593F98d1c5": {
+    "aave-v3-pool": {
       "name": "aave-v3-pool",
       "address": "0xA238Dd80C259a72e81d7e4664a9801593F98d1c5"
     },
-    "8453_0x0000000000000000000000000000000000000000": {
+    "moxie-token-lock-wallet": {
       "name": "moxie-token-lock-wallet",
       "address": "0x0000000000000000000000000000000000000000"
     },
-    "8453_0xef9816e228Bb88a81178CD37C3fAB926BfC67517": {
+    "degen-airdrop1": {
       "name": "degen-airdrop1",
       "address": "0xef9816e228Bb88a81178CD37C3fAB926BfC67517"
     },
-    "8453_0xffcbF84650cE02DaFE96926B37a0ac5E34932fa5": {
+    "xen-crypto": {
       "name": "xen-crypto",
       "address": "0xffcbF84650cE02DaFE96926B37a0ac5E34932fa5"
     },
-    "8453_0x4ed4E862860beD51a9570b96d89aF5E1B0Efefed": {
+    "degen": {
       "name": "degen",
       "address": "0x4ed4E862860beD51a9570b96d89aF5E1B0Efefed"
     }
