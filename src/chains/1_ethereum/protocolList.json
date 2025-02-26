@@ -1,6 +1,6 @@
 {
   "name": "superdapp-protocols-1_ethereum",
-  "timestamp": 1740549666772,
+  "timestamp": 1740551074103,
   "version": {
     "major": 1,
     "minor": 0,
@@ -87,75 +87,75 @@
     }
   ],
   "protocolMap": {
-    "1_0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84": {
+    "lido": {
       "name": "lido",
       "address": "0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84"
     },
-    "1_0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39": {
+    "hex": {
       "name": "hex",
       "address": "0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39"
     },
-    "1_0x7B4EB56E7CD4b454BA8ff71E4518426369a138a3": {
+    "aave-v3-pool-data-provider": {
       "name": "aave-v3-pool-data-provider",
       "address": "0x7B4EB56E7CD4b454BA8ff71E4518426369a138a3"
     },
-    "1_0xf032f7FB8258728A1938473B2115BB163d5Da593": {
+    "dbxen-views": {
       "name": "dbxen-views",
       "address": "0xf032f7FB8258728A1938473B2115BB163d5Da593"
     },
-    "1_0x0a252663DBCc0b073063D6420a40319e438Cfa59": {
+    "xenft": {
       "name": "xenft",
       "address": "0x0a252663DBCc0b073063D6420a40319e438Cfa59"
     },
-    "1_0xF5c80c305803280B587F8cabBcCdC4d9BF522AbD": {
+    "dbxen": {
       "name": "dbxen",
       "address": "0xF5c80c305803280B587F8cabBcCdC4d9BF522AbD"
     },
-    "1_0x8BD3d1472A656e312E94fB1BbdD599B8C51D18e3": {
+    "hex-stake-instance": {
       "name": "hex-stake-instance",
       "address": "0x8BD3d1472A656e312E94fB1BbdD599B8C51D18e3"
     },
-    "1_0xB7c9E99Da8A857cE576A830A9c19312114d9dE02": {
+    "maximus-team": {
       "name": "maximus-team",
       "address": "0xB7c9E99Da8A857cE576A830A9c19312114d9dE02"
     },
-    "1_0xC36442b4a4522E871399CD717aBDD847Ab11FE88": {
+    "nonfungible-position-manager": {
       "name": "nonfungible-position-manager",
       "address": "0xC36442b4a4522E871399CD717aBDD847Ab11FE88"
     },
-    "1_0x7d2768dE32b0b80b7a3454c06BdAc94A69DDc7A9": {
+    "aave-v2-pool": {
       "name": "aave-v2-pool",
       "address": "0x7d2768dE32b0b80b7a3454c06BdAc94A69DDc7A9"
     },
-    "1_0x0de8bf93da2f7eecb3d9169422413a9bef4ef628": {
+    "coin-tool": {
       "name": "coin-tool",
       "address": "0x0de8bf93da2f7eecb3d9169422413a9bef4ef628"
     },
-    "1_0xC3e8abfA04B0EC442c2A4D65699a40F7FcEd8055": {
+    "fenix": {
       "name": "fenix",
       "address": "0xC3e8abfA04B0EC442c2A4D65699a40F7FcEd8055"
     },
-    "1_0x87870Bca3F3fD6335C3F4ce8392D69350B4fA4E2": {
+    "aave-v3-pool": {
       "name": "aave-v3-pool",
       "address": "0x87870Bca3F3fD6335C3F4ce8392D69350B4fA4E2"
     },
-    "1_0x80f0C1c49891dcFDD40b6e0F960F84E6042bcB6F": {
+    "dbxen-token": {
       "name": "dbxen-token",
       "address": "0x80f0C1c49891dcFDD40b6e0F960F84E6042bcB6F"
     },
-    "1_0x00e50FAB64eBB37b87df06Aa46b8B35d5f1A4e1A": {
+    "aave-v2-pool-data-provider": {
       "name": "aave-v2-pool-data-provider",
       "address": "0x00e50FAB64eBB37b87df06Aa46b8B35d5f1A4e1A"
     },
-    "1_0xe42c659dc09109566720ea8b2de186c2be7d94d9": {
+    "lido-withdraw": {
       "name": "lido-withdraw",
       "address": "0xe42c659dc09109566720ea8b2de186c2be7d94d9"
     },
-    "1_0x06450dEe7FD2Fb8E39061434BAbCFC05599a6Fb8": {
+    "xen-crypto": {
       "name": "xen-crypto",
       "address": "0x06450dEe7FD2Fb8E39061434BAbCFC05599a6Fb8"
     },
-    "1_0x3819f64f282bf135d62168C1e513280dAF905e06": {
+    "hedron": {
       "name": "hedron",
       "address": "0x3819f64f282bf135d62168C1e513280dAF905e06"
     }

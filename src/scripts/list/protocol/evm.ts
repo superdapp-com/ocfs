@@ -34,26 +34,12 @@ const getProtocolList = async (chain: Chain, protocolNames: string[]) => {
                     address: protocolAddress
                 }
                 protocols.push(protocol);
-                const key = `${chain.id}_${protocolAddress}`;
-                protocolMap[key] = protocol;
+                protocolMap[protocolName] = protocol;
             }
         });
     });
 
-    // Object.entries(protocolData).map(([protocol, address]) => ({
-    //     name: protocol,
-    //     address
-    // })),
 
-    //     const tokenMap: Record<string, any> = {};
-
-    // tokens.forEach((token) => {
-    //     const tokenDataPath = `${outBasePath}/tokens/${getTokenNameSymbol(token)}/${token.address}/`
-    //     fs.mkdirSync(`${tokenDataPath}`, { recursive: true });
-    //     fs.writeFileSync(`${tokenDataPath}/erc20.json`, JSON.stringify(token, null, 2));
-    //     const key = `${token.chainId}_${token.address}`;
-    //     tokenMap[key] = token;
-    // });
 
     const protocolList = {
         name: `superdapp-protocols-${chainFolder}`,
