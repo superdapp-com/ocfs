@@ -1,6 +1,6 @@
 {
   "name": "superdapp-protocols-369_pulsechain",
-  "timestamp": 1740290152162,
+  "timestamp": 1740549666773,
   "version": {
     "major": 1,
     "minor": 0,
@@ -55,15 +55,45 @@
     }
   ],
   "protocolMap": {
-    "hex": "0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39",
-    "dbxen-views": "0x9B560853787B0fB6126F7ad53b63313D2Aa625Db",
-    "xenft": "0xfEa13BF27493f04DEac94f67a46441a68EfD32F8",
-    "dbxen": "0x6d38Ab9f5b5Edfb22e57a44c3c747f9584de1f1a",
-    "hex-stake-instance": "0x8BD3d1472A656e312E94fB1BbdD599B8C51D18e3",
-    "maximus-team": "0xB7c9E99Da8A857cE576A830A9c19312114d9dE02",
-    "coin-tool": "0x0de8bf93da2f7eecb3d9169422413a9bef4ef628",
-    "fenix": "0xC3e8abfA04B0EC442c2A4D65699a40F7FcEd8055",
-    "xen-crypto": "0x8a7FDcA264e87b6da72D000f22186B4403081A2a",
-    "hedron": "0x3819f64f282bf135d62168C1e513280dAF905e06"
+    "369_0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39": {
+      "name": "hex",
+      "address": "0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39"
+    },
+    "369_0x9B560853787B0fB6126F7ad53b63313D2Aa625Db": {
+      "name": "dbxen-views",
+      "address": "0x9B560853787B0fB6126F7ad53b63313D2Aa625Db"
+    },
+    "369_0xfEa13BF27493f04DEac94f67a46441a68EfD32F8": {
+      "name": "xenft",
+      "address": "0xfEa13BF27493f04DEac94f67a46441a68EfD32F8"
+    },
+    "369_0x6d38Ab9f5b5Edfb22e57a44c3c747f9584de1f1a": {
+      "name": "dbxen",
+      "address": "0x6d38Ab9f5b5Edfb22e57a44c3c747f9584de1f1a"
+    },
+    "369_0x8BD3d1472A656e312E94fB1BbdD599B8C51D18e3": {
+      "name": "hex-stake-instance",
+      "address": "0x8BD3d1472A656e312E94fB1BbdD599B8C51D18e3"
+    },
+    "369_0xB7c9E99Da8A857cE576A830A9c19312114d9dE02": {
+      "name": "maximus-team",
+      "address": "0xB7c9E99Da8A857cE576A830A9c19312114d9dE02"
+    },
+    "369_0x0de8bf93da2f7eecb3d9169422413a9bef4ef628": {
+      "name": "coin-tool",
+      "address": "0x0de8bf93da2f7eecb3d9169422413a9bef4ef628"
+    },
+    "369_0xC3e8abfA04B0EC442c2A4D65699a40F7FcEd8055": {
+      "name": "fenix",
+      "address": "0xC3e8abfA04B0EC442c2A4D65699a40F7FcEd8055"
+    },
+    "369_0x8a7FDcA264e87b6da72D000f22186B4403081A2a": {
+      "name": "xen-crypto",
+      "address": "0x8a7FDcA264e87b6da72D000f22186B4403081A2a"
+    },
+    "369_0x3819f64f282bf135d62168C1e513280dAF905e06": {
+      "name": "hedron",
+      "address": "0x3819f64f282bf135d62168C1e513280dAF905e06"
+    }
   }
 }
