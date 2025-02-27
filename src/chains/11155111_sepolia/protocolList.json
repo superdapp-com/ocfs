@@ -1,6 +1,6 @@
 {
   "name": "superdapp-protocols-11155111_sepolia",
-  "timestamp": 1740628488349,
+  "timestamp": 1740640964322,
   "version": {
     "major": 1,
     "minor": 0,
@@ -17,9 +17,7 @@
       "name": "lido",
       "address": "0x3e3FE7dBc6B4C189E7128855dD526361c49b40Af",
       "tokenAddresses": [
-        null,
-        "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-        "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+        null
       ]
     },
     {
@@ -31,18 +29,14 @@
       "name": "aave-v3-pool",
       "address": "0x6Ae43d3271ff6888e7Fc43Fd7321a503ff738951",
       "tokenAddresses": [
-        null,
-        "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-        "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+        null
       ]
     },
     {
       "name": "lido-withdraw",
       "address": "0x0220A1cF6C3a548BE75aEabCdA509CaB08CDe063",
       "tokenAddresses": [
-        null,
-        "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-        "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+        null
       ]
     }
   ],
@@ -51,9 +45,7 @@
       "name": "lido",
       "address": "0x3e3FE7dBc6B4C189E7128855dD526361c49b40Af",
       "tokenAddresses": [
-        null,
-        "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-        "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+        null
       ]
     },
     "aave-v3-pool-data-provider": {
@@ -65,18 +57,14 @@
       "name": "aave-v3-pool",
       "address": "0x6Ae43d3271ff6888e7Fc43Fd7321a503ff738951",
       "tokenAddresses": [
-        null,
-        "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-        "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+        null
       ]
     },
     "lido-withdraw": {
       "name": "lido-withdraw",
       "address": "0x0220A1cF6C3a548BE75aEabCdA509CaB08CDe063",
       "tokenAddresses": [
-        null,
-        "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-        "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+        null
       ]
     }
   }

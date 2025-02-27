@@ -1,6 +1,6 @@
 {
   "name": "superdapp-protocols-8453_base",
-  "timestamp": 1740628488348,
+  "timestamp": 1740640964322,
   "version": {
     "major": 1,
     "minor": 0,
@@ -36,7 +36,9 @@
     {
       "name": "locked-degen",
       "address": "0xa8a30E0dafCA4156f28d96cCa5671a0eEcA5E407",
-      "tokenAddresses": []
+      "tokenAddresses": [
+        "0x4ed4E862860beD51a9570b96d89aF5E1B0Efefed"
+      ]
     },
     {
       "name": "dbxen",
@@ -71,7 +73,9 @@
     {
       "name": "degen-airdrop1",
       "address": "0xef9816e228Bb88a81178CD37C3fAB926BfC67517",
-      "tokenAddresses": []
+      "tokenAddresses": [
+        "0x4ed4E862860beD51a9570b96d89aF5E1B0Efefed"
+      ]
     },
     {
       "name": "xen-crypto",
@@ -81,7 +85,9 @@
     {
       "name": "degen",
       "address": "0x4ed4E862860beD51a9570b96d89aF5E1B0Efefed",
-      "tokenAddresses": []
+      "tokenAddresses": [
+        "0x4ed4E862860beD51a9570b96d89aF5E1B0Efefed"
+      ]
     }
   ],
   "protocolMap": {
@@ -108,7 +114,9 @@
     "locked-degen": {
       "name": "locked-degen",
       "address": "0xa8a30E0dafCA4156f28d96cCa5671a0eEcA5E407",
-      "tokenAddresses": []
+      "tokenAddresses": [
+        "0x4ed4E862860beD51a9570b96d89aF5E1B0Efefed"
+      ]
     },
     "dbxen": {
       "name": "dbxen",
@@ -143,7 +151,9 @@
     "degen-airdrop1": {
       "name": "degen-airdrop1",
       "address": "0xef9816e228Bb88a81178CD37C3fAB926BfC67517",
-      "tokenAddresses": []
+      "tokenAddresses": [
+        "0x4ed4E862860beD51a9570b96d89aF5E1B0Efefed"
+      ]
     },
     "xen-crypto": {
       "name": "xen-crypto",
@@ -153,7 +163,9 @@
     "degen": {
       "name": "degen",
       "address": "0x4ed4E862860beD51a9570b96d89aF5E1B0Efefed",
-      "tokenAddresses": []
+      "tokenAddresses": [
+        "0x4ed4E862860beD51a9570b96d89aF5E1B0Efefed"
+      ]
     }
   }
 }
