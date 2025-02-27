@@ -14,6 +14,8 @@ jobs:
       RPC_HTTP_137: ${{ secrets.RPC_HTTP_137 }}
       RPC_HTTP_369: ${{ secrets.RPC_HTTP_369 }}
       RPC_HTTP_8453: ${{ secrets.RPC_HTTP_8453 }}
+      RPC_HTTP_17000: ${{ secrets.RPC_HTTP_17000 }}
+      RPC_HTTP_11155111: ${{ secrets.RPC_HTTP_11155111 }}
 
     steps:
       - name: Checkout code
