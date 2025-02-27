@@ -26,12 +26,20 @@ const getProtocolList = async (chain: Chain, protocolNames: string[]) => {
             return;
         }
         const protocolAddresses = fs.readdirSync(inProtocolAddressPath);
-
         protocolAddresses.forEach((protocolAddress) => {
+            let tokenAddresses: string[] = [];
+            const tokenAddressesPath = `${inProtocolAddressPath}/${protocolAddress}/tokenAddresses.json`;
+            
+            if (fs.existsSync(tokenAddressesPath)) {
+                const tokenAddressesData = fs.readFileSync(tokenAddressesPath, "utf8");
+                tokenAddresses = JSON.parse(tokenAddressesData);
+            }
+            
             if (getAddress(protocolAddress)) {
                 const protocol = {
                     name: protocolName,
-                    address: protocolAddress
+                    address: protocolAddress,
+                    tokenAddresses: tokenAddresses
                 }
                 protocols.push(protocol);
                 protocolMap[protocolName] = protocol;

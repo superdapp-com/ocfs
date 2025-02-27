@@ -1,6 +1,6 @@
 {
   "name": "superdapp-protocols-369_pulsechain",
-  "timestamp": 1740551074104,
+  "timestamp": 1740623457545,
   "version": {
     "major": 1,
     "minor": 0,
@@ -15,85 +15,105 @@
   "protocols": [
     {
       "name": "hex",
-      "address": "0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39"
+      "address": "0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39",
+      "tokenAddresses": []
     },
     {
       "name": "dbxen-views",
-      "address": "0x9B560853787B0fB6126F7ad53b63313D2Aa625Db"
+      "address": "0x9B560853787B0fB6126F7ad53b63313D2Aa625Db",
+      "tokenAddresses": []
     },
     {
       "name": "xenft",
-      "address": "0xfEa13BF27493f04DEac94f67a46441a68EfD32F8"
+      "address": "0xfEa13BF27493f04DEac94f67a46441a68EfD32F8",
+      "tokenAddresses": []
     },
     {
       "name": "dbxen",
-      "address": "0x6d38Ab9f5b5Edfb22e57a44c3c747f9584de1f1a"
+      "address": "0x6d38Ab9f5b5Edfb22e57a44c3c747f9584de1f1a",
+      "tokenAddresses": []
     },
     {
       "name": "hex-stake-instance",
-      "address": "0x8BD3d1472A656e312E94fB1BbdD599B8C51D18e3"
+      "address": "0x8BD3d1472A656e312E94fB1BbdD599B8C51D18e3",
+      "tokenAddresses": []
     },
     {
       "name": "maximus-team",
-      "address": "0xB7c9E99Da8A857cE576A830A9c19312114d9dE02"
+      "address": "0xB7c9E99Da8A857cE576A830A9c19312114d9dE02",
+      "tokenAddresses": []
     },
     {
       "name": "coin-tool",
-      "address": "0x0de8bf93da2f7eecb3d9169422413a9bef4ef628"
+      "address": "0x0de8bf93da2f7eecb3d9169422413a9bef4ef628",
+      "tokenAddresses": []
     },
     {
       "name": "fenix",
-      "address": "0xC3e8abfA04B0EC442c2A4D65699a40F7FcEd8055"
+      "address": "0xC3e8abfA04B0EC442c2A4D65699a40F7FcEd8055",
+      "tokenAddresses": []
     },
     {
       "name": "xen-crypto",
-      "address": "0x8a7FDcA264e87b6da72D000f22186B4403081A2a"
+      "address": "0x8a7FDcA264e87b6da72D000f22186B4403081A2a",
+      "tokenAddresses": []
     },
     {
       "name": "hedron",
-      "address": "0x3819f64f282bf135d62168C1e513280dAF905e06"
+      "address": "0x3819f64f282bf135d62168C1e513280dAF905e06",
+      "tokenAddresses": []
     }
   ],
   "protocolMap": {
     "hex": {
       "name": "hex",
-      "address": "0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39"
+      "address": "0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39",
+      "tokenAddresses": []
     },
     "dbxen-views": {
       "name": "dbxen-views",
-      "address": "0x9B560853787B0fB6126F7ad53b63313D2Aa625Db"
+      "address": "0x9B560853787B0fB6126F7ad53b63313D2Aa625Db",
+      "tokenAddresses": []
     },
     "xenft": {
       "name": "xenft",
-      "address": "0xfEa13BF27493f04DEac94f67a46441a68EfD32F8"
+      "address": "0xfEa13BF27493f04DEac94f67a46441a68EfD32F8",
+      "tokenAddresses": []
     },
     "dbxen": {
       "name": "dbxen",
-      "address": "0x6d38Ab9f5b5Edfb22e57a44c3c747f9584de1f1a"
+      "address": "0x6d38Ab9f5b5Edfb22e57a44c3c747f9584de1f1a",
+      "tokenAddresses": []
     },
     "hex-stake-instance": {
       "name": "hex-stake-instance",
-      "address": "0x8BD3d1472A656e312E94fB1BbdD599B8C51D18e3"
+      "address": "0x8BD3d1472A656e312E94fB1BbdD599B8C51D18e3",
+      "tokenAddresses": []
     },
     "maximus-team": {
       "name": "maximus-team",
-      "address": "0xB7c9E99Da8A857cE576A830A9c19312114d9dE02"
+      "address": "0xB7c9E99Da8A857cE576A830A9c19312114d9dE02",
+      "tokenAddresses": []
     },
     "coin-tool": {
       "name": "coin-tool",
-      "address": "0x0de8bf93da2f7eecb3d9169422413a9bef4ef628"
+      "address": "0x0de8bf93da2f7eecb3d9169422413a9bef4ef628",
+      "tokenAddresses": []
     },
     "fenix": {
       "name": "fenix",
-      "address": "0xC3e8abfA04B0EC442c2A4D65699a40F7FcEd8055"
+      "address": "0xC3e8abfA04B0EC442c2A4D65699a40F7FcEd8055",
+      "tokenAddresses": []
     },
     "xen-crypto": {
       "name": "xen-crypto",
-      "address": "0x8a7FDcA264e87b6da72D000f22186B4403081A2a"
+      "address": "0x8a7FDcA264e87b6da72D000f22186B4403081A2a",
+      "tokenAddresses": []
     },
     "hedron": {
       "name": "hedron",
-      "address": "0x3819f64f282bf135d62168C1e513280dAF905e06"
+      "address": "0x3819f64f282bf135d62168C1e513280dAF905e06",
+      "tokenAddresses": []
     }
   }
 }

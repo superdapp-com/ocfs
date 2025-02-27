@@ -1,6 +1,6 @@
 {
   "name": "superdapp-protocols-137_polygon",
-  "timestamp": 1740551074103,
+  "timestamp": 1740623457545,
   "version": {
     "major": 1,
     "minor": 0,
@@ -15,85 +15,105 @@
   "protocols": [
     {
       "name": "aave-v3-pool-data-provider",
-      "address": "0x69FA688f1Dc47d4B5d8029D5a35FB7a548310654"
+      "address": "0x69FA688f1Dc47d4B5d8029D5a35FB7a548310654",
+      "tokenAddresses": []
     },
     {
       "name": "dbxen-views",
-      "address": "0x93CC648eE2fBf366DD5d8D354C0946bE6ee4936c"
+      "address": "0x93CC648eE2fBf366DD5d8D354C0946bE6ee4936c",
+      "tokenAddresses": []
     },
     {
       "name": "xenft",
-      "address": "0x726bB6aC9b74441Eb8FB52163e9014302D4249e5"
+      "address": "0x726bB6aC9b74441Eb8FB52163e9014302D4249e5",
+      "tokenAddresses": []
     },
     {
       "name": "dbxen",
-      "address": "0x4F3ce26D9749C0f36012C9AbB41BF9938476c462"
+      "address": "0x4F3ce26D9749C0f36012C9AbB41BF9938476c462",
+      "tokenAddresses": []
     },
     {
       "name": "aave-v2-pool",
-      "address": "0x8dFf5E27EA6b7AC08EbFdf9eB090F32ee9a30fcf"
+      "address": "0x8dFf5E27EA6b7AC08EbFdf9eB090F32ee9a30fcf",
+      "tokenAddresses": []
     },
     {
       "name": "coin-tool",
-      "address": "0xdf6fEE057222d2F7933C215C11e5150bD2efc53E"
+      "address": "0xdf6fEE057222d2F7933C215C11e5150bD2efc53E",
+      "tokenAddresses": []
     },
     {
       "name": "fenix",
-      "address": "0xC3e8abfA04B0EC442c2A4D65699a40F7FcEd8055"
+      "address": "0xC3e8abfA04B0EC442c2A4D65699a40F7FcEd8055",
+      "tokenAddresses": []
     },
     {
       "name": "aave-v3-pool",
-      "address": "0x794a61358D6845594F94dc1DB02A252b5b4814aD"
+      "address": "0x794a61358D6845594F94dc1DB02A252b5b4814aD",
+      "tokenAddresses": []
     },
     {
       "name": "aave-v2-pool-data-provider",
-      "address": "0x204f2Eb81D996729829debC819f7992DCEEfE7b1"
+      "address": "0x204f2Eb81D996729829debC819f7992DCEEfE7b1",
+      "tokenAddresses": []
     },
     {
       "name": "xen-crypto",
-      "address": "0x2AB0e9e4eE70FFf1fB9D67031E44F6410170d00e"
+      "address": "0x2AB0e9e4eE70FFf1fB9D67031E44F6410170d00e",
+      "tokenAddresses": []
     }
   ],
   "protocolMap": {
     "aave-v3-pool-data-provider": {
       "name": "aave-v3-pool-data-provider",
-      "address": "0x69FA688f1Dc47d4B5d8029D5a35FB7a548310654"
+      "address": "0x69FA688f1Dc47d4B5d8029D5a35FB7a548310654",
+      "tokenAddresses": []
     },
     "dbxen-views": {
       "name": "dbxen-views",
-      "address": "0x93CC648eE2fBf366DD5d8D354C0946bE6ee4936c"
+      "address": "0x93CC648eE2fBf366DD5d8D354C0946bE6ee4936c",
+      "tokenAddresses": []
     },
     "xenft": {
       "name": "xenft",
-      "address": "0x726bB6aC9b74441Eb8FB52163e9014302D4249e5"
+      "address": "0x726bB6aC9b74441Eb8FB52163e9014302D4249e5",
+      "tokenAddresses": []
     },
     "dbxen": {
       "name": "dbxen",
-      "address": "0x4F3ce26D9749C0f36012C9AbB41BF9938476c462"
+      "address": "0x4F3ce26D9749C0f36012C9AbB41BF9938476c462",
+      "tokenAddresses": []
     },
     "aave-v2-pool": {
       "name": "aave-v2-pool",
-      "address": "0x8dFf5E27EA6b7AC08EbFdf9eB090F32ee9a30fcf"
+      "address": "0x8dFf5E27EA6b7AC08EbFdf9eB090F32ee9a30fcf",
+      "tokenAddresses": []
     },
     "coin-tool": {
       "name": "coin-tool",
-      "address": "0xdf6fEE057222d2F7933C215C11e5150bD2efc53E"
+      "address": "0xdf6fEE057222d2F7933C215C11e5150bD2efc53E",
+      "tokenAddresses": []
     },
     "fenix": {
       "name": "fenix",
-      "address": "0xC3e8abfA04B0EC442c2A4D65699a40F7FcEd8055"
+      "address": "0xC3e8abfA04B0EC442c2A4D65699a40F7FcEd8055",
+      "tokenAddresses": []
     },
     "aave-v3-pool": {
       "name": "aave-v3-pool",
-      "address": "0x794a61358D6845594F94dc1DB02A252b5b4814aD"
+      "address": "0x794a61358D6845594F94dc1DB02A252b5b4814aD",
+      "tokenAddresses": []
     },
     "aave-v2-pool-data-provider": {
       "name": "aave-v2-pool-data-provider",
-      "address": "0x204f2Eb81D996729829debC819f7992DCEEfE7b1"
+      "address": "0x204f2Eb81D996729829debC819f7992DCEEfE7b1",
+      "tokenAddresses": []
     },
     "xen-crypto": {
       "name": "xen-crypto",
-      "address": "0x2AB0e9e4eE70FFf1fB9D67031E44F6410170d00e"
+      "address": "0x2AB0e9e4eE70FFf1fB9D67031E44F6410170d00e",
+      "tokenAddresses": []
     }
   }
 }
