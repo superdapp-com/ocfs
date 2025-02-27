@@ -1,7 +1,7 @@
 import * as fs from 'fs';
 import { Chain, createPublicClient, erc20Abi, getAddress} from "viem";
 import { evmChains, transportMap, getChainFolder, getTokenNameSymbol } from "../../globals.js";
-import hexNameSymbolAbi from "../../custom-erc20-abis/hex-name-symbol-abi.json"
+import hexNameSymbolAbi from "../../custom-erc20-abis/hex-name-symbol-abi.json" assert { type: "json" };
 import { hexToString, trim } from 'viem/utils';
 
 export const evmTokenList = async () => {

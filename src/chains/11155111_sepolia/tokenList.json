@@ -1,0 +1,61 @@
+{
+  "name": "superdapp-tokens-11155111_sepolia",
+  "timestamp": 1740628489125,
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  },
+  "keywords": [
+    "superdapp.com",
+    "token",
+    "list",
+    "11155111_sepolia"
+  ],
+  "tokens": [
+    {
+      "chainId": 11155111,
+      "address": "0xfFf9976782d46CC05630D1f6eBAb18b2324d6B14",
+      "name": "Wrapped Ether",
+      "symbol": "WETH",
+      "decimals": 18
+    },
+    {
+      "chainId": 11155111,
+      "address": "0x3e3FE7dBc6B4C189E7128855dD526361c49b40Af",
+      "name": "Liquid staked Ether 2.0",
+      "symbol": "stETH",
+      "decimals": 18
+    },
+    {
+      "chainId": 11155111,
+      "address": "0xB82381A3fBD3FaFA77B3a7bE693342618240067b",
+      "name": "Wrapped liquid staked Ether 2.0",
+      "symbol": "wstETH",
+      "decimals": 18
+    }
+  ],
+  "tokenMap": {
+    "11155111_0xfFf9976782d46CC05630D1f6eBAb18b2324d6B14": {
+      "chainId": 11155111,
+      "address": "0xfFf9976782d46CC05630D1f6eBAb18b2324d6B14",
+      "name": "Wrapped Ether",
+      "symbol": "WETH",
+      "decimals": 18
+    },
+    "11155111_0x3e3FE7dBc6B4C189E7128855dD526361c49b40Af": {
+      "chainId": 11155111,
+      "address": "0x3e3FE7dBc6B4C189E7128855dD526361c49b40Af",
+      "name": "Liquid staked Ether 2.0",
+      "symbol": "stETH",
+      "decimals": 18
+    },
+    "11155111_0xB82381A3fBD3FaFA77B3a7bE693342618240067b": {
+      "chainId": 11155111,
+      "address": "0xB82381A3fBD3FaFA77B3a7bE693342618240067b",
+      "name": "Wrapped liquid staked Ether 2.0",
+      "symbol": "wstETH",
+      "decimals": 18
+    }
+  }
+}

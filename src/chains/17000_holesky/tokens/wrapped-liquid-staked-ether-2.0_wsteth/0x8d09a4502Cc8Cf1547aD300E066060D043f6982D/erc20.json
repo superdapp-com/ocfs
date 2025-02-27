@@ -1,0 +1,7 @@
+{
+  "chainId": 17000,
+  "address": "0x8d09a4502Cc8Cf1547aD300E066060D043f6982D",
+  "name": "Wrapped liquid staked Ether 2.0",
+  "symbol": "wstETH",
+  "decimals": 18
+}
