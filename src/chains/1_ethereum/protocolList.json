@@ -1,6 +1,6 @@
 {
   "name": "superdapp-protocols-1_ethereum",
-  "timestamp": 1740663814322,
+  "timestamp": 1740768284763,
   "version": {
     "major": 1,
     "minor": 0,
@@ -16,6 +16,15 @@
     {
       "name": "lido",
       "address": "0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84",
+      "tokenAddresses": [
+        null,
+        "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+      ]
+    },
+    {
+      "name": "morpho",
+      "address": "0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb",
       "tokenAddresses": [
         null,
         "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
@@ -120,6 +129,15 @@
     "lido": {
       "name": "lido",
       "address": "0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84",
+      "tokenAddresses": [
+        null,
+        "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+      ]
+    },
+    "morpho": {
+      "name": "morpho",
+      "address": "0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb",
       "tokenAddresses": [
         null,
         "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
