@@ -1,6 +1,6 @@
 {
   "name": "superdapp-protocols-8453_base",
-  "timestamp": 1740768737108,
+  "timestamp": 1740770309491,
   "version": {
     "major": 1,
     "minor": 0,
@@ -17,6 +17,15 @@
       "name": "moxie",
       "address": "0x8C9037D1Ef5c6D1f6816278C7AAF5491d24CD527",
       "tokenAddresses": []
+    },
+    {
+      "name": "morpho",
+      "address": "0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb",
+      "tokenAddresses": [
+        null,
+        "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913"
+      ]
     },
     {
       "name": "aave-v3-pool-data-provider",
@@ -91,6 +100,15 @@
       "name": "moxie",
       "address": "0x8C9037D1Ef5c6D1f6816278C7AAF5491d24CD527",
       "tokenAddresses": []
+    },
+    "morpho": {
+      "name": "morpho",
+      "address": "0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb",
+      "tokenAddresses": [
+        null,
+        "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913"
+      ]
     },
     "aave-v3-pool-data-provider": {
       "name": "aave-v3-pool-data-provider",
