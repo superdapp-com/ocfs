@@ -26,14 +26,39 @@ jobs:
         with:
           bun-version: latest
 
+      - name: Cache dependencies and tools
+        id: cache-all
+        uses: actions/cache@v3
+        with:
+          path: |
+            node_modules
+            /usr/bin/convert
+            /usr/bin/inkscape
+            /usr/bin/rclone
+          key: ${{ runner.os }}-deps-tools-${{ hashFiles('**/bun.lockb') }}
+          restore-keys: |
+            ${{ runner.os }}-deps-tools-
+
       - name: Install dependencies
+        if: steps.cache-all.outputs.cache-hit != 'true'
         run: bun install
 
-      - name: Install Inkscape and rclone
+      - name: Install ImageMagick
+        if: steps.cache-all.outputs.cache-hit != 'true'
         run: |
-          sudo apt-get update -qq
-          sudo apt-get install -y -qq --no-install-recommends inkscape
-          curl -s https://rclone.org/install.sh | sudo bash
+          sudo apt-get update
+          sudo apt-get install -y imagemagick
+          
+      - name: Install Inkscape
+        if: steps.cache-all.outputs.cache-hit != 'true'
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y inkscape
+
+      - name: Install rclone
+        if: steps.cache-all.outputs.cache-hit != 'true'
+        run: |
+          curl https://rclone.org/install.sh | sudo bash
 
       - name: Configure rclone for Cloudflare R2
         run: |
