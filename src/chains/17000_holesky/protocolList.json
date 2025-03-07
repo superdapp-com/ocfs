@@ -1,6 +1,6 @@
 {
   "name": "superdapp-protocols-17000_holesky",
-  "timestamp": 1741374292705,
+  "timestamp": 1741375055751,
   "version": {
     "major": 1,
     "minor": 0,
@@ -17,14 +17,27 @@
       "name": "lido",
       "address": "0x3F1c547b21f65e10480dE3ad8E19fAAC46C95034",
       "tokenAddresses": [
-        null
+        null,
+        "0x3F1c547b21f65e10480dE3ad8E19fAAC46C95034",
+        "0x8d09a4502Cc8Cf1547aD300E066060D043f6982D"
       ]
     },
     {
       "name": "lido-withdraw",
       "address": "0xc7cc160b58F8Bb0baC94b80847E2CF2800565C50",
       "tokenAddresses": [
-        null
+        null,
+        "0x3F1c547b21f65e10480dE3ad8E19fAAC46C95034",
+        "0x8d09a4502Cc8Cf1547aD300E066060D043f6982D"
+      ]
+    },
+    {
+      "name": "steth",
+      "address": "0x3F1c547b21f65e10480dE3ad8E19fAAC46C95034",
+      "tokenAddresses": [
+        null,
+        "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
       ]
     }
   ],
@@ -33,14 +46,27 @@
       "name": "lido",
       "address": "0x3F1c547b21f65e10480dE3ad8E19fAAC46C95034",
       "tokenAddresses": [
-        null
+        null,
+        "0x3F1c547b21f65e10480dE3ad8E19fAAC46C95034",
+        "0x8d09a4502Cc8Cf1547aD300E066060D043f6982D"
       ]
     },
     "lido-withdraw": {
       "name": "lido-withdraw",
       "address": "0xc7cc160b58F8Bb0baC94b80847E2CF2800565C50",
       "tokenAddresses": [
-        null
+        null,
+        "0x3F1c547b21f65e10480dE3ad8E19fAAC46C95034",
+        "0x8d09a4502Cc8Cf1547aD300E066060D043f6982D"
+      ]
+    },
+    "steth": {
+      "name": "steth",
+      "address": "0x3F1c547b21f65e10480dE3ad8E19fAAC46C95034",
+      "tokenAddresses": [
+        null,
+        "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
       ]
     }
   }
