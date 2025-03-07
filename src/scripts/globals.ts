@@ -14,12 +14,12 @@ export const svmChains = [solana];
 export const allChains = [...evmChains, ...svmChains];
 
 export const transportMap: Record<number, HttpTransport> = {
-    1: http(env.RPC_HTTP_1),
-    137: http(env.RPC_HTTP_137),
-    369: http(env.RPC_HTTP_369),
-    8453: http(env.RPC_HTTP_8453),
-    17000: http(env.RPC_HTTP_17000),
-    11_155_111: http(env.RPC_HTTP_11155111),
+    1: http(env.EVM_RPC_HTTP_1),
+    137: http(env.EVM_RPC_HTTP_137),
+    369: http(env.EVM_RPC_HTTP_369),
+    8453: http(env.EVM_RPC_HTTP_8453),
+    17000: http(env.EVM_RPC_HTTP_17000),
+    11_155_111: http(env.EVM_RPC_HTTP_11155111),
 }
 
 export const getChainFolder = (chain: Chain) => {
