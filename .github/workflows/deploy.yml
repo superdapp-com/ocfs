@@ -9,13 +9,13 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     env:
-      RPC_HTTP_101: ${{ secrets.RPC_HTTP_101 }}
-      RPC_HTTP_1: ${{ secrets.RPC_HTTP_1 }}
-      RPC_HTTP_137: ${{ secrets.RPC_HTTP_137 }}
-      RPC_HTTP_369: ${{ secrets.RPC_HTTP_369 }}
-      RPC_HTTP_8453: ${{ secrets.RPC_HTTP_8453 }}
-      RPC_HTTP_17000: ${{ secrets.RPC_HTTP_17000 }}
-      RPC_HTTP_11155111: ${{ secrets.RPC_HTTP_11155111 }}
+      SVM_RPC_HTTP_MAINNET: ${{ secrets.SVM_RPC_HTTP_MAINNET }}
+      EVM_RPC_HTTP_1: ${{ secrets.EVM_RPC_HTTP_1 }}
+      EVM_RPC_HTTP_137: ${{ secrets.EVM_RPC_HTTP_137 }}
+      EVM_RPC_HTTP_369: ${{ secrets.EVM_RPC_HTTP_369 }}
+      EVM_RPC_HTTP_8453: ${{ secrets.EVM_RPC_HTTP_8453 }}
+      EVM_RPC_HTTP_17000: ${{ secrets.EVM_RPC_HTTP_17000 }}
+      EVM_RPC_HTTP_11155111: ${{ secrets.EVM_RPC_HTTP_11155111 }}
 
     steps:
       - name: Checkout code
