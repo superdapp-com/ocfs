@@ -9,12 +9,22 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     env:
+      SVM_RPC_HTTP_DEVNET: ${{ secrets.SVM_RPC_HTTP_DEVNET }}
       SVM_RPC_HTTP_MAINNET: ${{ secrets.SVM_RPC_HTTP_MAINNET }}
       EVM_RPC_HTTP_1: ${{ secrets.EVM_RPC_HTTP_1 }}
+      EVM_RPC_HTTP_10: ${{ secrets.EVM_RPC_HTTP_10 }}
+      EVM_RPC_HTTP_56: ${{ secrets.EVM_RPC_HTTP_56 }}
+      EVM_RPC_HTTP_130: ${{ secrets.EVM_RPC_HTTP_130 }}
       EVM_RPC_HTTP_137: ${{ secrets.EVM_RPC_HTTP_137 }}
+      EVM_RPC_HTTP_250: ${{ secrets.EVM_RPC_HTTP_250 }}
       EVM_RPC_HTTP_369: ${{ secrets.EVM_RPC_HTTP_369 }}
+      EVM_RPC_HTTP_1284: ${{ secrets.EVM_RPC_HTTP_1284 }}
+      EVM_RPC_HTTP_1285: ${{ secrets.EVM_RPC_HTTP_1285 }}
       EVM_RPC_HTTP_8453: ${{ secrets.EVM_RPC_HTTP_8453 }}
+      EVM_RPC_HTTP_9001: ${{ secrets.EVM_RPC_HTTP_9001 }}
       EVM_RPC_HTTP_17000: ${{ secrets.EVM_RPC_HTTP_17000 }}
+      EVM_RPC_HTTP_42161: ${{ secrets.EVM_RPC_HTTP_42161 }}
+      EVM_RPC_HTTP_43114: ${{ secrets.EVM_RPC_HTTP_43114 }}
       EVM_RPC_HTTP_11155111: ${{ secrets.EVM_RPC_HTTP_11155111 }}
 
     steps:
