@@ -1,6 +1,6 @@
 {
   "name": "superdapp-protocols-1_ethereum",
-  "timestamp": 1741375890274,
+  "timestamp": 1741381173643,
   "version": {
     "major": 1,
     "minor": 0,
@@ -13,6 +13,11 @@
     "1_ethereum"
   ],
   "protocols": [
+    {
+      "name": "metamorpho",
+      "address": "0x1897A8997241C1cD4bD0698647e4EB7213535c24",
+      "tokenAddresses": []
+    },
     {
       "name": "lido",
       "address": "0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84",
@@ -135,6 +140,11 @@
     }
   ],
   "protocolMap": {
+    "metamorpho": {
+      "name": "metamorpho",
+      "address": "0x1897A8997241C1cD4bD0698647e4EB7213535c24",
+      "tokenAddresses": []
+    },
     "lido": {
       "name": "lido",
       "address": "0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84",

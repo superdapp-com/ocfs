@@ -1,6 +1,6 @@
 {
   "name": "superdapp-protocols-8453_base",
-  "timestamp": 1741375890275,
+  "timestamp": 1741381173645,
   "version": {
     "major": 1,
     "minor": 0,
@@ -16,6 +16,11 @@
     {
       "name": "moxie",
       "address": "0x8C9037D1Ef5c6D1f6816278C7AAF5491d24CD527",
+      "tokenAddresses": []
+    },
+    {
+      "name": "metamorpho",
+      "address": "0xFf62A7c278C62eD665133147129245053Bbf5918",
       "tokenAddresses": []
     },
     {
@@ -99,6 +104,11 @@
     "moxie": {
       "name": "moxie",
       "address": "0x8C9037D1Ef5c6D1f6816278C7AAF5491d24CD527",
+      "tokenAddresses": []
+    },
+    "metamorpho": {
+      "name": "metamorpho",
+      "address": "0xFf62A7c278C62eD665133147129245053Bbf5918",
       "tokenAddresses": []
     },
     "morpho": {
