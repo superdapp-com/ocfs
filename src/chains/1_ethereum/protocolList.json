@@ -1,6 +1,6 @@
 {
   "name": "superdapp-protocols-1_ethereum",
-  "timestamp": 1741317197401,
+  "timestamp": 1741374292703,
   "version": {
     "major": 1,
     "minor": 0,
@@ -115,6 +115,15 @@
       "tokenAddresses": []
     },
     {
+      "name": "steth",
+      "address": "0xf1C9acDc66974dFB6dEcB12aA385b9cD01190E38",
+      "tokenAddresses": [
+        null,
+        "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+      ]
+    },
+    {
       "name": "xen-crypto",
       "address": "0x06450dEe7FD2Fb8E39061434BAbCFC05599a6Fb8",
       "tokenAddresses": []
@@ -226,6 +235,15 @@
       "name": "lido-withdraw",
       "address": "0xe42c659dc09109566720ea8b2de186c2be7d94d9",
       "tokenAddresses": []
+    },
+    "steth": {
+      "name": "steth",
+      "address": "0xf1C9acDc66974dFB6dEcB12aA385b9cD01190E38",
+      "tokenAddresses": [
+        null,
+        "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+      ]
     },
     "xen-crypto": {
       "name": "xen-crypto",
