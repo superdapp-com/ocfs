@@ -22,7 +22,6 @@ export const env = createEnv({
     EVM_RPC_HTTP_11155111: z.string(),
   },
   client: {
-    // NEXT_PUBLIC_CLIENTVAR: z.string(),
   },
   runtimeEnv: {
     SVM_RPC_HTTP_DEVNET: process.env.SVM_RPC_HTTP_DEVNET,
